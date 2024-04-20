@@ -1,1 +1,1 @@
-# number_guess_game
+#wis-python-course-2024-04
