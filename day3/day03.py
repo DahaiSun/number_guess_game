@@ -25,7 +25,7 @@ def main():
                 break
             
         print(f"number of guesses: {guess_time}")
-        return random_number
+       
 
     game ()
 
