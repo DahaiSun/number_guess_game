@@ -2,19 +2,27 @@ import random
 
 def main():
 
-    def game(cheat=False):
+    while True:#big loop for the new game
         random_number = random.randint(1,21)
-        if cheat:
-            print(f"Hi loser, the number is: {random_number}")
         guess_time = 0
-        while True:
-            try:
-                guess = int(input("I have an int number in mind between 1-20. What do you think it is? "))
-            except ValueError:
-                print("Hi bro, that is not a interger")
+
+        while True:#small loop for the guess          
+            user_input = input("I have an int number in mind between 1-20. What do you think it is? (n-new game; s-cheat; x-exit)")
+            
+            if user_input.lower() == 'n':
+                print("new game")
+                break
+            elif user_input.lower() == 's':
+                print(f"the secret number is {random_number}")
                 continue
+            elif user_input.lower() == 'x':
+                return#leave game()
             
-            
+            try:
+                guess = int(user_input)
+            except ValueError:
+                print("Hi bro, that's not a integer")               
+                    
             guess_time += 1
             if guess < random_number:
                 print("too small, try again") 
@@ -24,20 +32,6 @@ def main():
                 print("you are right")
                 break
             
-        print(f"number of guesses: {guess_time}")
-       
+        print(f"number of guesses: {guess_time}")     
 
-    game ()
-
-    def new_game():
-        while True:
-            command = input("Play again? x-exit, n-new game, s-tell you the number")
-            if command.lower() == "n":
-                game()
-            elif command.lower() == "s":
-                game(cheat=True)
-            elif command.lower() == "x":
-                break
-    new_game()
-    
 main()
