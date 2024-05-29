@@ -11,6 +11,7 @@
        <br>list target genes under the column name:
        <br>for example:
         |targets|
+        |-------|
         |STAT1|
         |STAT2|
         |STAT3|
