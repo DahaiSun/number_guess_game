@@ -17,4 +17,10 @@
         |STAT3|
         |STAT4|
     3) Data sheet name "sheet1"
-        genes name column name “Gene”
+        genes should under the column that named “Gene”
+2. data_distribution.py
+    1) load excel file
+    2) Draw histogram of 2 dataset 
+    3) calcilate 𝜇 and 𝜎 for each dataset
+    4) output result in a temporary window
+    
