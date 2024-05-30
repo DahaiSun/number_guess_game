@@ -1,4 +1,21 @@
-1. search_gene.py
+
+1. data_distribution.py
+    1) load excel file
+    2) Draw histogram of 2 dataset 
+    3) calcilate 𝜇 and 𝜎 for each dataset
+    4) output result in a temporary window
+
+2. data_sampling.py
+
+    1）From the normal population: Sampling distribution of the mean 𝑥̅, median and variance 𝑆
+    
+    2） From the skewed population: Sampling distribution of the mean 𝑥̅, median and variance 𝑆
+2
+for samples of size 𝑛 = 30
+for samples of size 𝑛 = 10
+
+
+3. search_gene.py
     1) load excel file
     2) search target genes listed in the "targets" column, search area is the "Gene" column in sheet
        <br> keep empty value for the none found genes
@@ -18,9 +35,3 @@
         |STAT4|
     3) Data sheet name "sheet1"
         genes should under the column that named “Gene”
-2. data_distribution.py
-    1) load excel file
-    2) Draw histogram of 2 dataset 
-    3) calcilate 𝜇 and 𝜎 for each dataset
-    4) output result in a temporary window
-    
