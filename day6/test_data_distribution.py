@@ -11,10 +11,6 @@ class TestStatistics(unittest.TestCase):
             'Dataset2': ['4', '6']
         })
 
-    def test_load_data(self):
-        data = load_data(r'E:\github\wis_python_course_assignments\day6\StatisticsQ1.xlsx', 'Sheet1')
-        self.assertIsInstance(data, pd.DataFrame)
-
     def test_calculate_statistics(self):
         self.expected_means = {'Dataset1': 2, 'Dataset2': 5}
         self.expected_stds = {'Dataset1': 1, 'Dataset2': 1}

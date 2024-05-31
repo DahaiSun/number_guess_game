@@ -1,9 +1,14 @@
 
 1. data_distribution.py
-    1) load excel file
+
+    Usage: python3 data_distribution.py <file_path> <sheet_name>"
+    in my case the command should be：python3 data_distribution.py StatisticsQ1.xlsx Sheet1
+    
+    work-flow
+    1) load excel file from command
     2) Draw histogram of 2 dataset 
     3) calcilate 𝜇 and 𝜎 for each dataset
-    4) output result in a temporary window
+    4) output result in a temporary window if using windows windows system, or print saving path of the output file
 
 2. data_sampling.py
 

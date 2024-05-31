@@ -10,7 +10,7 @@ data = pd.read_excel(file_path, sheet_name=sheet_name)
 population1 = data['Dataset1']
 population2 = data['Dataset2']
 
-# sampling 
+# sampling Distributions
 def sampling_distribution(data, sample_size, num_samples, statistic):
     samples = np.random.choice(data, (num_samples, sample_size))
     if statistic == 'mean':
