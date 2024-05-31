@@ -1,16 +1,15 @@
 
 1. data_distribution.py
 
-    Usage: python3 data_distribution.py <file_path> <sheet_name>"
-    in my case the command should be：python3 data_distribution.py StatisticsQ1.xlsx Sheet1
+   Usage: python3 data_distribution.py <file_path> <sheet_name>"
+   in my case the command should be：python3 data_distribution.py StatisticsQ1.xlsx Sheet1
     
     work-flow
     1) load excel file from command
     2) Draw histogram of 2 dataset 
     3) calcilate 𝜇 and 𝜎 for each dataset
-    4) output result in a temporary window if using windows windows system, or print saving path of the output file
-
-2. data_sampling.py
+    4) output result in a temporary window if using windows windows system. Print saving path of the output file if working with linux or macos
+3. data_sampling.py
 
     1）From the normal population: Sampling distribution of the mean 𝑥̅, median and variance 𝑆
     
@@ -20,7 +19,7 @@ for samples of size 𝑛 = 30
 for samples of size 𝑛 = 10
 
 
-3. search_gene.py
+4. search_gene.py
     1) load excel file
     2) search target genes listed in the "targets" column, search area is the "Gene" column in sheet
        <br> keep empty value for the none found genes
