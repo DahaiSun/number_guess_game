@@ -8,7 +8,7 @@
     1) load excel file from command
     2) Draw histogram of 2 dataset 
     3) calcilate 𝜇 and 𝜎 for each dataset
-    4) output result in a temporary window if using windows windows system. Print saving path of the output file if working with linux or macos
+    4) output result to a temporary window if using windows system. Print saving path of the output file if working with linux or macos
 3. data_sampling.py
 
     1）From the normal population: Sampling distribution of the mean 𝑥̅, median and variance 𝑆
