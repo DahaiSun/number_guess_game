@@ -11,15 +11,18 @@
     4) output result to a temporary window if using windows system. Print saving path of the output file if working with linux or macos
 3. data_sampling.py
 
+   Usage: python3 data_sampling.py <file_path> <sheet_name>
+   in my case: Python3 data_sampling.py StatisticsQ1.xlsx Sheet1
+
+     work-flow
     1）From the normal population: Sampling distribution of the mean 𝑥̅, median and variance 𝑆
-    
     2） From the skewed population: Sampling distribution of the mean 𝑥̅, median and variance 𝑆
 2
 for samples of size 𝑛 = 30
 for samples of size 𝑛 = 10
 
 
-4. search_gene.py
+5. search_gene.py
     1) load excel file
     2) search target genes listed in the "targets" column, search area is the "Gene" column in sheet
        <br> keep empty value for the none found genes
