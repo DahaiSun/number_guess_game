@@ -1,22 +1,2 @@
-
-
-
-
-
-
-
-
-
-
-
-
-2024-06-07 20:34:26,STAT5A,10,40,protein,Mus musculus
-2024-06-07 20:36:16,STAT5A,10,40,protein,Mus musculus
-2024-06-07 20:38:19,STAT5A,10,40,protein,Mus musculus
-2024-06-07 20:42:07,STAT5A,10,40,protein,Mus musculus
-2024-06-07 20:43:56,STAT5A,20,40,protein,Mus musculus
-2024-06-07 20:51:05,STAT5A,20,40,protein,Mus musculus
-2024-06-08 02:41:58,stat5a,20,49,protein,Homo sapiens
-2024-06-08 02:53:04,stat5a,20,49,protein,Homo sapiens
-2024-06-08 02:59:07,stat5a,20,49,protein,Homo sapiens
-2024-06-08 03:14:30,stat5a,20,40,protein,Mus musculus
+date,term,max,total,database,organisms
+2024/6/8 3:27,stat5a,5,40,protein,Mus musculus

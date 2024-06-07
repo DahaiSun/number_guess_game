@@ -1,0 +1,1031 @@
+LOCUS       CSF1R_MOUSE              977 aa            linear   ROD 29-MAY-2024
+DEFINITION  RecName: Full=Macrophage colony-stimulating factor 1 receptor;
+            AltName: Full=CSF-1 receptor; Short=CSF-1-R; Short=CSF-1R;
+            Short=M-CSF-R; AltName: Full=Proto-oncogene c-Fms; AltName:
+            CD_antigen=CD115; Flags: Precursor.
+ACCESSION   P09581
+VERSION     P09581.3
+DBSOURCE    UniProtKB: locus CSF1R_MOUSE, accession P09581;
+            class: standard.
+            extra accessions:Q3U3P1,Q9DBH9
+            created: Jul 1, 1989.
+            sequence updated: May 10, 2002.
+            annotation updated: May 29, 2024.
+            xrefs: X06368.1, CAA29666.1, AK004947.1, BAB23691.1, AK079247.1,
+            BAC37587.1, AK143545.1, BAE25430.1, AK154653.1, BAE32744.1,
+            BC043054.1, AAH43054.1, S62219.1, TVMSMD, NP_001032948.2,
+            XP_006525647.1, XP_006525648.1, XP_006525649.1, XP_017173299.1,
+            3EJJ_X, 4EXP_X
+            xrefs (non-sequence databases): CCDS:CCDS29280.1, PDBsum:3EJJ,
+            PDBsum:4EXP, AlphaFoldDB:P09581, SMR:P09581, BioGRID:198928,
+            DIP:DIP-46415N, IntAct:P09581, MINT:P09581,
+            STRING:10090.ENSMUSP00000110923, BindingDB:P09581,
+            ChEMBL:CHEMBL5570, DrugCentral:P09581, GlyCosmos:P09581,
+            GlyGen:P09581, iPTMnet:P09581, PhosphoSitePlus:P09581,
+            CPTAC:non-CPTAC-3547, CPTAC:non-CPTAC-3548,
+            PaxDb:10090-ENSMUSP00000025523, PeptideAtlas:P09581,
+            ProteomicsDB:285343, Antibodypedia:1201, DNASU:12978,
+            Ensembl:ENSMUST00000025523.13, Ensembl:ENSMUSP00000025523.7,
+            Ensembl:ENSMUSG00000024621.17, Ensembl:ENSMUST00000115268.4,
+            Ensembl:ENSMUSP00000110923.4, GeneID:12978, KEGG:mmu:12978,
+            UCSC:uc008fbn.1, AGR:MGI:1339758, CTD:1436, MGI:1339758,
+            VEuPathDB:HostDB:ENSMUSG00000024621, eggNOG:KOG0200,
+            GeneTree:ENSGT00940000155506, HOGENOM:CLU_000288_49_0_1,
+            InParanoid:P09581, OMA:TIHKAKY, OrthoDB:1614410at2759,
+            PhylomeDB:P09581, TreeFam:TF325768, BRENDA:2.7.10.1,
+            Reactome:R-MMU-449836, BioGRID-ORCS:12978, ChiTaRS:Csf1r,
+            EvolutionaryTrace:P09581, PRO:PR:P09581, Proteomes:UP000000589,
+            RNAct:P09581, Bgee:ENSMUSG00000024621, ExpressionAtlas:P09581,
+            GO:0044297, GO:0009986, GO:1990682, GO:0016020, GO:0005654,
+            GO:0043204, GO:0005886, GO:0043235, GO:0005524, GO:0019955,
+            GO:0019838, GO:0005011, GO:0097159, GO:0042803, GO:0019903,
+            GO:0004713, GO:0004714, GO:0007411, GO:0045217, GO:0071345,
+            GO:0036006, GO:0021542, GO:0021879, GO:0045087, GO:0038145,
+            GO:0014005, GO:0001774, GO:0061518, GO:0035702, GO:0043066,
+            GO:0008285, GO:0030857, GO:0010832, GO:1905220, GO:1990138,
+            GO:0001780, GO:0021772, GO:0030316, GO:0018108, GO:0044794,
+            GO:0061890, GO:0030501, GO:1902808, GO:0030335, GO:0008284,
+            GO:0032722, GO:0070374, GO:0010628, GO:0070665, GO:0050671,
+            GO:0010759, GO:1905523, GO:0120041, GO:2000288, GO:0045672,
+            GO:0051897, GO:0032760, GO:0042531, GO:0046777, GO:0032956,
+            GO:0045124, GO:0008360, GO:1905521, GO:0043408, GO:0032944,
+            GO:0002931, GO:0031529, GO:0007169, CDD:cd05106, Gene3D:2.60.40.10,
+            Gene3D:1.10.510.10, InterPro:IPR030658, InterPro:IPR007110,
+            InterPro:IPR036179, InterPro:IPR013783, InterPro:IPR003599,
+            InterPro:IPR003598, InterPro:IPR013151, InterPro:IPR011009,
+            InterPro:IPR000719, InterPro:IPR017441, InterPro:IPR001245,
+            InterPro:IPR008266, InterPro:IPR020635, InterPro:IPR001824,
+            PANTHER:PTHR24416:SF47, PANTHER:PTHR24416, Pfam:PF00047,
+            Pfam:PF07714, PIRSF:PIRSF500947, PIRSF:PIRSF000615, SMART:SM00409,
+            SMART:SM00408, SMART:SM00219, SUPFAM:SSF48726, SUPFAM:SSF56112,
+            PROSITE:PS50835, PROSITE:PS00107, PROSITE:PS50011, PROSITE:PS00109,
+            PROSITE:PS00240
+KEYWORDS    3D-structure; ATP-binding; Cell membrane; Disulfide bond;
+            Glycoprotein; Immunity; Immunoglobulin domain; Inflammatory
+            response; Innate immunity; Kinase; Membrane; Nucleotide-binding;
+            Phosphoprotein; Proto-oncogene; Receptor; Reference proteome;
+            Repeat; Signal; Transferase; Transmembrane; Transmembrane helix;
+            Tyrosine-protein kinase; Ubl conjugation.
+SOURCE      Mus musculus (house mouse)
+  ORGANISM  Mus musculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha;
+            Muroidea; Muridae; Murinae; Mus; Mus.
+REFERENCE   1  (residues 1 to 977)
+  AUTHORS   Rothwell,V.M. and Rohrschneider,L.R.
+  TITLE     Murine c-fms cDNA: cloning, sequence analysis and retroviral
+            expression
+  JOURNAL   Oncogene Res 1 (4), 311-324 (1987)
+   PUBMED   2966922
+  REMARK    NUCLEOTIDE SEQUENCE [MRNA].
+REFERENCE   2  (residues 1 to 977)
+  AUTHORS   Rothwell,V.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (??-SEP-1988) to the EMBL/GenBank/DDBJ databases
+  REMARK    SEQUENCE REVISION.
+REFERENCE   3  (residues 1 to 977)
+  AUTHORS   de Parseval,N., Bordereaux,D., Gisselbrecht,S. and Sola,B.
+  TITLE     Reassessment of the murine c-fms proto-oncogene sequence
+  JOURNAL   Nucleic Acids Res 21 (3), 750 (1993)
+   PUBMED   8441691
+  REMARK    SEQUENCE REVISION.
+REFERENCE   4  (residues 1 to 977)
+  AUTHORS   Carninci,P., Kasukawa,T., Katayama,S., Gough,J., Frith,M.C.,
+            Maeda,N., Oyama,R., Ravasi,T., Lenhard,B., Wells,C., Kodzius,R.,
+            Shimokawa,K., Bajic,V.B., Brenner,S.E., Batalov,S., Forrest,A.R.,
+            Zavolan,M., Davis,M.J., Wilming,L.G., Aidinis,V., Allen,J.E.,
+            Ambesi-Impiombato,A., Apweiler,R., Aturaliya,R.N., Bailey,T.L.,
+            Bansal,M., Baxter,L., Beisel,K.W., Bersano,T., Bono,H., Chalk,A.M.,
+            Chiu,K.P., Choudhary,V., Christoffels,A., Clutterbuck,D.R.,
+            Crowe,M.L., Dalla,E., Dalrymple,B.P., de Bono,B., Della Gatta,G.,
+            di Bernardo,D., Down,T., Engstrom,P., Fagiolini,M., Faulkner,G.,
+            Fletcher,C.F., Fukushima,T., Furuno,M., Futaki,S., Gariboldi,M.,
+            Georgii-Hemming,P., Gingeras,T.R., Gojobori,T., Green,R.E.,
+            Gustincich,S., Harbers,M., Hayashi,Y., Hensch,T.K., Hirokawa,N.,
+            Hill,D., Huminiecki,L., Iacono,M., Ikeo,K., Iwama,A., Ishikawa,T.,
+            Jakt,M., Kanapin,A., Katoh,M., Kawasawa,Y., Kelso,J., Kitamura,H.,
+            Kitano,H., Kollias,G., Krishnan,S.P., Kruger,A., Kummerfeld,S.K.,
+            Kurochkin,I.V., Lareau,L.F., Lazarevic,D., Lipovich,L., Liu,J.,
+            Liuni,S., McWilliam,S., Madan Babu,M., Madera,M., Marchionni,L.,
+            Matsuda,H., Matsuzawa,S., Miki,H., Mignone,F., Miyake,S.,
+            Morris,K., Mottagui-Tabar,S., Mulder,N., Nakano,N., Nakauchi,H.,
+            Ng,P., Nilsson,R., Nishiguchi,S., Nishikawa,S., Nori,F., Ohara,O.,
+            Okazaki,Y., Orlando,V., Pang,K.C., Pavan,W.J., Pavesi,G.,
+            Pesole,G., Petrovsky,N., Piazza,S., Reed,J., Reid,J.F., Ring,B.Z.,
+            Ringwald,M., Rost,B., Ruan,Y., Salzberg,S.L., Sandelin,A.,
+            Schneider,C., Schonbach,C., Sekiguchi,K., Semple,C.A., Seno,S.,
+            Sessa,L., Sheng,Y., Shibata,Y., Shimada,H., Shimada,K., Silva,D.,
+            Sinclair,B., Sperling,S., Stupka,E., Sugiura,K., Sultana,R.,
+            Takenaka,Y., Taki,K., Tammoja,K., Tan,S.L., Tang,S., Taylor,M.S.,
+            Tegner,J., Teichmann,S.A., Ueda,H.R., van Nimwegen,E., Verardo,R.,
+            Wei,C.L., Yagi,K., Yamanishi,H., Zabarovsky,E., Zhu,S., Zimmer,A.,
+            Hide,W., Bult,C., Grimmond,S.M., Teasdale,R.D., Liu,E.T.,
+            Brusic,V., Quackenbush,J., Wahlestedt,C., Mattick,J.S., Hume,D.A.,
+            Kai,C., Sasaki,D., Tomaru,Y., Fukuda,S., Kanamori-Katayama,M.,
+            Suzuki,M., Aoki,J., Arakawa,T., Iida,J., Imamura,K., Itoh,M.,
+            Kato,T., Kawaji,H., Kawagashira,N., Kawashima,T., Kojima,M.,
+            Kondo,S., Konno,H., Nakano,K., Ninomiya,N., Nishio,T., Okada,M.,
+            Plessy,C., Shibata,K., Shiraki,T., Suzuki,S., Tagami,M., Waki,K.,
+            Watahiki,A., Okamura-Oho,Y., Suzuki,H., Kawai,J. and Hayashizaki,Y.
+  CONSRTM   FANTOM Consortium; RIKEN Genome Exploration Research Group and
+            Genome Science Group (Genome Network Project Core Group)
+  TITLE     The transcriptional landscape of the mammalian genome
+  JOURNAL   Science 309 (5740), 1559-1563 (2005)
+   PUBMED   16141072
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].;
+            STRAIN=C57BL/6J, and NOD; TISSUE=Liver, and Urinary bladder
+            Erratum:[Science. 2006 Mar 24;311(5768):1713]
+REFERENCE   5  (residues 1 to 977)
+  AUTHORS   Gerhard,D.S., Wagner,L., Feingold,E.A., Shenmen,C.M., Grouse,L.H.,
+            Schuler,G., Klein,S.L., Old,S., Rasooly,R., Good,P., Guyer,M.,
+            Peck,A.M., Derge,J.G., Lipman,D., Collins,F.S., Jang,W., Sherry,S.,
+            Feolo,M., Misquitta,L., Lee,E., Rotmistrovsky,K., Greenhut,S.F.,
+            Schaefer,C.F., Buetow,K., Bonner,T.I., Haussler,D., Kent,J.,
+            Kiekhaus,M., Furey,T., Brent,M., Prange,C., Schreiber,K.,
+            Shapiro,N., Bhat,N.K., Hopkins,R.F., Hsie,F., Driscoll,T.,
+            Soares,M.B., Casavant,T.L., Scheetz,T.E., Brown-stein,M.J.,
+            Usdin,T.B., Toshiyuki,S., Carninci,P., Piao,Y., Dudekula,D.B.,
+            Ko,M.S., Kawakami,K., Suzuki,Y., Sugano,S., Gruber,C.E.,
+            Smith,M.R., Simmons,B., Moore,T., Waterman,R., Johnson,S.L.,
+            Ruan,Y., Wei,C.L., Mathavan,S., Gunaratne,P.H., Wu,J., Garcia,A.M.,
+            Hulyk,S.W., Fuh,E., Yuan,Y., Sneed,A., Kowis,C., Hodgson,A.,
+            Muzny,D.M., McPherson,J., Gibbs,R.A., Fahey,J., Helton,E.,
+            Ketteman,M., Madan,A., Rodrigues,S., Sanchez,A., Whiting,M.,
+            Madari,A., Young,A.C., Wetherby,K.D., Granite,S.J., Kwong,P.N.,
+            Brinkley,C.P., Pearson,R.L., Bouffard,G.G., Blakesly,R.W.,
+            Green,E.D., Dickson,M.C., Rodriguez,A.C., Grimwood,J., Schmutz,J.,
+            Myers,R.M., Butterfield,Y.S., Griffith,M., Griffith,O.L.,
+            Krzywinski,M.I., Liao,N., Morin,R., Palmquist,D., Petrescu,A.S.,
+            Skalska,U., Smailus,D.E., Stott,J.M., Schnerch,A., Schein,J.E.,
+            Jones,S.J., Holt,R.A., Baross,A., Marra,M.A., Clifton,S.,
+            Makowski,K.A., Bosak,S. and Malek,J.
+  CONSRTM   MGC Project Team
+  TITLE     The status, quality, and expansion of the NIH full-length cDNA
+            project: the Mammalian Gene Collection (MGC)
+  JOURNAL   Genome Res 14 (10B), 2121-2127 (2004)
+   PUBMED   15489334
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].;
+            STRAIN=C57BL/6J; TISSUE=Brain
+            Erratum:[Genome Res. 2006 Jun;16(6):804. Morrin, Ryan [corrected to
+            Morin, Ryan]]
+REFERENCE   6  (residues 1 to 977)
+  AUTHORS   Yue,X., Favot,P., Dunn,T.L., Cassady,A.I. and Hume,D.A.
+  TITLE     Expression of mRNA encoding the macrophage colony-stimulating
+            factor receptor (c-fms) is controlled by a constitutive promoter
+            and tissue-specific transcription elongation
+  JOURNAL   Mol Cell Biol 13 (6), 3191-3201 (1993)
+   PUBMED   8497248
+  REMARK    NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-16.
+REFERENCE   7  (residues 1 to 977)
+  AUTHORS   van der Geer,P. and Hunter,T.
+  TITLE     Identification of tyrosine 706 in the kinase insert as the major
+            colony-stimulating factor 1 (CSF-1)-stimulated autophosphorylation
+            site in the CSF-1 receptor in a murine macrophage cell line
+  JOURNAL   Mol Cell Biol 10 (6), 2991-3002 (1990)
+   PUBMED   2160591
+  REMARK    PHOSPHORYLATION AT TYR-706 AND TYR-807.
+REFERENCE   8  (residues 1 to 977)
+  AUTHORS   van der Geer,P. and Hunter,T.
+  TITLE     Tyrosine 706 and 807 phosphorylation site mutants in the murine
+            colony-stimulating factor-1 receptor are unaffected in their
+            ability to bind or phosphorylate phosphatidylinositol-3 kinase but
+            show differential defects in their ability to induce early response
+            gene transcription
+  JOURNAL   Mol Cell Biol 11 (9), 4698-4709 (1991)
+   PUBMED   1652061
+  REMARK    FUNCTION IN CELL PROLIFERATION AND PHOSPHORYLATION OF PIK3R1,
+            INTERACTION WITH PIK3R1, PHOSPHORYLATION AT TYR-706 AND TYR-807,
+            AND MUTAGENESIS OF TYR-706 AND TYR-807.
+REFERENCE   9  (residues 1 to 977)
+  AUTHORS   van der Geer,P. and Hunter,T.
+  TITLE     Mutation of Tyr697, a GRB2-binding site, and Tyr721, a PI 3-kinase
+            binding site, abrogates signal transduction by the murine CSF-1
+            receptor expressed in Rat-2 fibroblasts
+  JOURNAL   EMBO J 12 (13), 5161-5172 (1993)
+   PUBMED   8262059
+  REMARK    FUNCTION AS CSF1 RECEPTOR, CATALYTIC ACTIVITY, AUTOPHOSPHORYLATION,
+            PHOSPHORYLATION AT TYR-697; TYR-706; TYR-721 AND TYR-807,
+            MUTAGENESIS OF LYS-614; TYR-697 AND TYR-721, AND INTERACTION WITH
+            GRB2.
+REFERENCE   10 (residues 1 to 977)
+  AUTHORS   Myles,G.M., Brandt,C.S., Carlberg,K. and Rohrschneider,L.R.
+  TITLE     Tyrosine 569 in the c-Fms juxtamembrane domain is essential for
+            kinase activity and macrophage colony-stimulating factor-dependent
+            internalization
+  JOURNAL   Mol Cell Biol 14 (7), 4843-4854 (1994)
+   PUBMED   8007983
+  REMARK    FUNCTION AS CSF1 RECEPTOR IN CELL PROLIFERATION AND IN ACTIVATION
+            OF AKT1; MAPK1/ERK2; MAPK3/ERK1; STAT3; STAT5A AND STAT5B,
+            INTERACTION WITH CBL; YES1; FYN AND SRC, SUBCELLULAR LOCATION,
+            CATALYTIC ACTIVITY, AUTOPHOSPHORYLATION, PHOSPHORYLATION AT TYR-559
+            AND TYR-807, UBIQUITINATION, AND MUTAGENESIS OF TYR-559.
+REFERENCE   11 (residues 1 to 977)
+  AUTHORS   Bourette,R.P., Myles,G.M., Choi,J.L. and Rohrschneider,L.R.
+  TITLE     Sequential activation of phoshatidylinositol 3-kinase and
+            phospholipase C-gamma2 by the M-CSF receptor is necessary for
+            differentiation signaling
+  JOURNAL   EMBO J 16 (19), 5880-5893 (1997)
+   PUBMED   9312046
+  REMARK    FUNCTION IN MACROPHAGE PROLIFERATION; MACROPHAGE DIFFERENTIATION;
+            PHOSPHORYLATION OF PLCG2; PHOSPHORYLATION OF PIK3R1 AND
+            PHOSPHORYLATION OF GRB2, CATALYTIC ACTIVITY, INTERACTION WITH
+            PIK3R1; GRB2; PLCG2 AND FYN, AND MUTAGENESIS OF LYS-614; TYR-697;
+            TYR-721 AND TYR-807.
+REFERENCE   12 (residues 1 to 977)
+  AUTHORS   Tamura,T., Mancini,A., Joos,H., Koch,A., Hakim,C., Dumanski,J.,
+            Weidner,K.M. and Niemann,H.
+  TITLE     FMIP, a novel Fms-interacting protein, affects
+            granulocyte/macrophage differentiation
+  JOURNAL   Oncogene 18 (47), 6488-6495 (1999)
+   PUBMED   10597251
+  REMARK    INTERACTION WITH THOC5, AND MUTAGENESIS OF TYR-544; LYS-614;
+            TYR-706; TYR-721 AND TYR-807.
+REFERENCE   13 (residues 1 to 977)
+  AUTHORS   Lee,A.W. and States,D.J.
+  TITLE     Both src-dependent and -independent mechanisms mediate
+            phosphatidylinositol 3-kinase regulation of colony-stimulating
+            factor 1-activated mitogen-activated protein kinases in myeloid
+            progenitors
+  JOURNAL   Mol Cell Biol 20 (18), 6779-6798 (2000)
+   PUBMED   10958675
+  REMARK    FUNCTION.
+REFERENCE   14 (residues 1 to 977)
+  AUTHORS   Dai,X.M., Ryan,G.R., Hapel,A.J., Dominguez,M.G., Russell,R.G.,
+            Kapp,S., Sylvestre,V. and Stanley,E.R.
+  TITLE     Targeted disruption of the mouse colony-stimulating factor 1
+            receptor gene results in osteopetrosis, mononuclear phagocyte
+            deficiency, increased primitive progenitor cell frequencies, and
+            reproductive defects
+  JOURNAL   Blood 99 (1), 111-120 (2002)
+   PUBMED   11756160
+  REMARK    DISRUPTION PHENOTYPE, AND FUNCTION.
+REFERENCE   15 (residues 1 to 977)
+  AUTHORS   Wilhelmsen,K., Burkhalter,S. and van der Geer,P.
+  TITLE     C-Cbl binds the CSF-1 receptor at tyrosine 973, a novel
+            phosphorylation site in the receptor's carboxy-terminus
+  JOURNAL   Oncogene 21 (7), 1079-1089 (2002)
+   PUBMED   11850825
+  REMARK    INTERACTION WITH CBL, AND PHOSPHORYLATION AT TYR-974.
+REFERENCE   16 (residues 1 to 977)
+  AUTHORS   Rohde,C.M., Schrum,J. and Lee,A.W.
+  TITLE     A juxtamembrane tyrosine in the colony stimulating factor-1
+            receptor regulates ligand-induced Src association, receptor kinase
+            function, and down-regulation
+  JOURNAL   J Biol Chem 279 (42), 43448-43461 (2004)
+   PUBMED   15297464
+  REMARK    MUTAGENESIS OF TYR-559, PHOSPHORYLATION AT TYR-559, DOMAIN, AND
+            ACTIVITY REGULATION.
+REFERENCE   17 (residues 1 to 977)
+  AUTHORS   Wang,Y., Keogh,R.J., Hunter,M.G., Mitchell,C.A., Frey,R.S.,
+            Javaid,K., Malik,A.B., Schurmans,S., Tridandapani,S. and Marsh,C.B.
+  TITLE     SHIP2 is recruited to the cell membrane upon macrophage
+            colony-stimulating factor (M-CSF) stimulation and regulates
+            M-CSF-induced signaling
+  JOURNAL   J Immunol 173 (11), 6820-6830 (2004)
+   PUBMED   15557176
+  REMARK    INTERACTION WITH INPPL1.
+REFERENCE   18 (residues 1 to 977)
+  AUTHORS   Sakai,H., Chen,Y., Itokawa,T., Yu,K.P., Zhu,M.L. and Insogna,K.
+  TITLE     Activated c-Fms recruits Vav and Rac during CSF-1-induced
+            cytoskeletal remodeling and spreading in osteoclasts
+  JOURNAL   Bone 39 (6), 1290-1301 (2006)
+   PUBMED   16950670
+  REMARK    FUNCTION.
+REFERENCE   19 (residues 1 to 977)
+  AUTHORS   Ghesquiere,B., Van Damme,J., Martens,L., Vandekerckhove,J. and
+            Gevaert,K.
+  TITLE     Proteome-wide characterization of N-glycosylation events by
+            diagonal chromatography
+  JOURNAL   J Proteome Res 5 (9), 2438-2447 (2006)
+   PUBMED   16944957
+  REMARK    GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-491.;
+            STRAIN=C57BL/6J; TISSUE=Plasma
+REFERENCE   20 (residues 1 to 977)
+  AUTHORS   Simoncic,P.D., Bourdeau,A., Lee-Loy,A., Rohrschneider,L.R.,
+            Tremblay,M.L., Stanley,E.R. and McGlade,C.J.
+  TITLE     T-cell protein tyrosine phosphatase (Tcptp) is a negative regulator
+            of colony-stimulating factor 1 signaling and macrophage
+            differentiation
+  JOURNAL   Mol Cell Biol 26 (11), 4149-4160 (2006)
+   PUBMED   16705167
+  REMARK    PHOSPHORYLATION, AND DEPHOSPHORYLATION BY PTPN2.
+REFERENCE   21 (residues 1 to 977)
+  AUTHORS   Pakuts,B., Debonneville,C., Liontos,L.M., Loreto,M.P. and
+            McGlade,C.J.
+  TITLE     The Src-like adaptor protein 2 regulates colony-stimulating
+            factor-1 receptor signaling and down-regulation
+  JOURNAL   J Biol Chem 282 (25), 17953-17963 (2007)
+   PUBMED   17353186
+  REMARK    FUNCTION IN PHOSPHORYLATION OF SLA2, INTERACTION WITH SLA2 AND CBL,
+            SUBCELLULAR LOCATION, AND UBIQUITINATION.
+REFERENCE   22 (residues 1 to 977)
+  AUTHORS   Takeshita,S., Faccio,R., Chappel,J., Zheng,L., Feng,X., Weber,J.D.,
+            Teitelbaum,S.L. and Ross,F.P.
+  TITLE     c-Fms tyrosine 559 is a major mediator of M-CSF-induced
+            proliferation of primary macrophages
+  JOURNAL   J Biol Chem 282 (26), 18980-18990 (2007)
+   PUBMED   17420255
+  REMARK    FUNCTION, MUTAGENESIS OF TYR-559, AND PHOSPHORYLATION AT TYR-921.
+REFERENCE   23 (residues 1 to 977)
+  AUTHORS   Faccio,R., Takeshita,S., Colaianni,G., Chappel,J., Zallone,A.,
+            Teitelbaum,S.L. and Ross,F.P.
+  TITLE     M-CSF regulates the cytoskeleton via recruitment of a multimeric
+            signaling complex to c-Fms Tyr-559/697/721
+  JOURNAL   J Biol Chem 282 (26), 18991-18999 (2007)
+   PUBMED   17420256
+  REMARK    FUNCTION.
+REFERENCE   24 (residues 1 to 977)
+  AUTHORS   Bourgin-Hierle,C., Gobert-Gosse,S., Therier,J., Grasset,M.F. and
+            Mouchiroud,G.
+  TITLE     Src-family kinases play an essential role in differentiation
+            signaling downstream of macrophage colony-stimulating factor
+            receptors mediating persistent phosphorylation of phospholipase
+            C-gamma2 and MAP kinases ERK1 and ERK2
+  JOURNAL   Leukemia 22 (1), 161-169 (2008)
+   PUBMED   17972959
+  REMARK    FUNCTION, AND SIGNALING PATHWAY.
+REFERENCE   25 (residues 1 to 977)
+  AUTHORS   Trost,M., English,L., Lemieux,S., Courcelles,M., Desjardins,M. and
+            Thibault,P.
+  TITLE     The phagosomal proteome in interferon-gamma-activated macrophages
+  JOURNAL   Immunity 30 (1), 143-154 (2009)
+   PUBMED   19144319
+  REMARK    IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+REFERENCE   26 (residues 1 to 977)
+  AUTHORS   Hiraga,T. and Nakamura,H.
+  TITLE     Imatinib mesylate suppresses bone metastases of breast cancer by
+            inhibiting osteoclasts through the blockade of c-Fms signals
+  JOURNAL   Int J Cancer 124 (1), 215-222 (2009)
+   PUBMED   18814279
+  REMARK    FUNCTION IN OSTEOCLAST DIFFERENTIATION, ROLE IN DISEASE, AND
+            ACTIVITY REGULATION.
+REFERENCE   27 (residues 1 to 977)
+  AUTHORS   Paniagua,R.T., Chang,A., Mariano,M.M., Stein,E.A., Wang,Q.,
+            Lindstrom,T.M., Sharpe,O., Roscow,C., Ho,P.P., Lee,D.M. and
+            Robinson,W.H.
+  TITLE     c-Fms-mediated differentiation and priming of monocyte lineage
+            cells play a central role in autoimmune arthritis
+  JOURNAL   Arthritis Res Ther 12 (1), R32 (2010)
+   PUBMED   20181277
+  REMARK    ROLE IN DISEASE.
+REFERENCE   28 (residues 1 to 977)
+  AUTHORS   Huttlin,E.L., Jedrychowski,M.P., Elias,J.E., Goswami,T., Rad,R.,
+            Beausoleil,S.A., Villen,J., Haas,W., Sowa,M.E. and Gygi,S.P.
+  TITLE     A tissue-specific atlas of mouse protein phosphorylation and
+            expression
+  JOURNAL   Cell 143 (7), 1174-1189 (2010)
+   PUBMED   21183079
+  REMARK    PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-711, AND
+            IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].;
+            TISSUE=Brain, and Spleen
+REFERENCE   29 (residues 1 to 977)
+  AUTHORS   Wei,S., Nandi,S., Chitu,V., Yeung,Y.G., Yu,W., Huang,M.,
+            Williams,L.T., Lin,H. and Stanley,E.R.
+  TITLE     Functional overlap but differential expression of CSF-1 and IL-34
+            in their CSF-1 receptor-mediated regulation of myeloid cells
+  JOURNAL   J Leukoc Biol 88 (3), 495-505 (2010)
+   PUBMED   20504948
+  REMARK    FUNCTION AS IL34 AND CSF1 RECEPTOR, FUNCTION IN ACTIVATION OF
+            MAPK1/ERK2 AND MAPK3/ERK1, PHOSPHORYLATION AT TYR-559; TYR-807 AND
+            TYR-721, AUTOPHOSPHORYLATION, AND TISSUE SPECIFICITY.
+REFERENCE   30 (residues 1 to 977)
+  AUTHORS   Lenzo,J.C., Turner,A.L., Cook,A.D., Vlahos,R., Anderson,G.P.,
+            Reynolds,E.C. and Hamilton,J.A.
+  TITLE     Control of macrophage lineage populations by CSF-1 receptor and
+            GM-CSF in homeostasis and inflammation
+  JOURNAL   Immunol Cell Biol 90 (4), 429-440 (2012)
+   PUBMED   21727904
+  REMARK    FUNCTION.
+REFERENCE   31 (residues 1 to 977)
+  AUTHORS   Xiong,Y., Song,D., Cai,Y., Yu,W., Yeung,Y.G. and Stanley,E.R.
+  TITLE     A CSF-1 receptor phosphotyrosine 559 signaling pathway regulates
+            receptor ubiquitination and tyrosine phosphorylation
+  JOURNAL   J Biol Chem 286 (2), 952-960 (2011)
+   PUBMED   21041311
+  REMARK    UBIQUITINATION.
+REFERENCE   32 (residues 1 to 977)
+  AUTHORS   Sampaio,N.G., Yu,W., Cox,D., Wyckoff,J., Condeelis,J., Stanley,E.R.
+            and Pixley,F.J.
+  TITLE     Phosphorylation of CSF-1R Y721 mediates its association with PI3K
+            to regulate macrophage motility and enhancement of tumor cell
+            invasion
+  JOURNAL   J Cell Sci 124 (Pt 12), 2021-2031 (2011)
+   PUBMED   21610095
+  REMARK    FUNCTION IN REGULATION OF CELL MOTILITY; CELL SHAPE; ACTIN
+            CYTOSKELETON REORGANIZATION; PHOSPHORYLATION OF AKT1 AND REGULATION
+            OF PHOSPHATIDYLINOSITOL METABOLISM, INTERACTION WITH PIK3R1 AND
+            PLCG2, PHOSPHORYLATION AT TYR-706 AND TYR-721, AND MUTAGENESIS OF
+            TYR-721.
+REFERENCE   33 (residues 1 to 977)
+  AUTHORS   Chen,X., Liu,H., Focia,P.J., Shim,A.H. and He,X.
+  TITLE     Structure of macrophage colony stimulating factor bound to FMS:
+            diverse signaling assemblies of class III receptor tyrosine kinases
+  JOURNAL   Proc Natl Acad Sci U S A 105 (47), 18267-18272 (2008)
+   PUBMED   19017797
+  REMARK    X-RAY CRYSTALLOGRAPHY (2.4 ANGSTROMS) OF 20-296 IN COMPLEX WITH
+            CSF1, GLYCOSYLATION AT ASN-45 AND ASN-73, SUBUNIT, AND DISULFIDE
+            BONDS.
+COMMENT     On or before Jul 17, 2007 this sequence version replaced gi:476562,
+            gi:266417.
+            [FUNCTION] Tyrosine-protein kinase that acts as a cell-surface
+            receptor for CSF1 and IL34 and plays an essential role in the
+            regulation of survival, proliferation and differentiation of
+            hematopoietic precursor cells, especially mononuclear phagocytes,
+            such as macrophages and monocytes. Promotes the release of
+            pro-inflammatory chemokines in response to IL34 and CSF1, and
+            thereby plays an important role in innate immunity and in
+            inflammatory processes. Plays an important role in the regulation
+            of osteoclast proliferation and differentiation, the regulation of
+            bone resorption, and is required for normal bone and tooth
+            development. Required for normal male and female fertility, and for
+            normal development of milk ducts and acinar structures in the
+            mammary gland during pregnancy. Promotes reorganization of the
+            actin cytoskeleton, regulates formation of membrane ruffles, cell
+            adhesion and cell migration, and promotes cancer cell invasion.
+            Activates several signaling pathways in response to ligand binding,
+            including the ERK1/2 and the JNK pathway (By similarity).
+            Phosphorylates PIK3R1, PLCG2, GRB2, SLA2 and CBL. Activation of
+            PLCG2 leads to the production of the cellular signaling molecules
+            diacylglycerol and inositol 1,4,5-trisphosphate, that then lead to
+            the activation of protein kinase C family members, especially
+            PRKCD. Phosphorylation of PIK3R1, the regulatory subunit of
+            phosphatidylinositol 3-kinase, leads to activation of the AKT1
+            signaling pathway. Activated CSF1R also mediates activation of the
+            MAP kinases MAPK1/ERK2 and/or MAPK3/ERK1, and of the SRC family
+            kinases SRC, FYN and YES1. Activated CSF1R transmits signals both
+            via proteins that directly interact with phosphorylated tyrosine
+            residues in its intracellular domain, or via adapter proteins, such
+            as GRB2. Promotes activation of STAT family members STAT3, STAT5A
+            and/or STAT5B. Promotes tyrosine phosphorylation of SHC1 and
+            INPP5D/SHIP-1. Receptor signaling is down-regulated by protein
+            phosphatases, such as INPP5D/SHIP-1, that dephosphorylate the
+            receptor and its downstream effectors, and by rapid internalization
+            of the activated receptor. In the central nervous system, may play
+            a role in the development of microglia macrophages (By similarity).
+            {ECO:0000250|UniProtKB:P07333, ECO:0000269|PubMed:10958675,
+            ECO:0000269|PubMed:11756160, ECO:0000269|PubMed:1652061,
+            ECO:0000269|PubMed:16950670, ECO:0000269|PubMed:17353186,
+            ECO:0000269|PubMed:17420255, ECO:0000269|PubMed:17420256,
+            ECO:0000269|PubMed:17972959, ECO:0000269|PubMed:18814279,
+            ECO:0000269|PubMed:20181277, ECO:0000269|PubMed:20504948,
+            ECO:0000269|PubMed:21610095, ECO:0000269|PubMed:21727904,
+            ECO:0000269|PubMed:8007983, ECO:0000269|PubMed:8262059,
+            ECO:0000269|PubMed:9312046}.
+            [CATALYTIC ACTIVITY] Reaction=ATP + L-tyrosyl-[protein] = ADP +
+            H(+) + O-phospho-L-tyrosyl-[protein]; Xref=Rhea:RHEA:10596,
+            Rhea:RHEA-COMP:10136, Rhea:RHEA-COMP:10137, ChEBI:CHEBI:15378,
+            ChEBI:CHEBI:30616, ChEBI:CHEBI:46858, ChEBI:CHEBI:82620,
+            ChEBI:CHEBI:456216; EC=2.7.10.1;
+            Evidence={ECO:0000255|PROSITE-ProRule:PRU10028,
+            ECO:0000269|PubMed:8007983, ECO:0000269|PubMed:8262059,
+            ECO:0000269|PubMed:9312046}.
+            ACTIVITY REGULATION: Present in an inactive conformation in the
+            absence of bound ligand. CSF1 or IL34 binding leads to dimerization
+            and activation by autophosphorylation on tyrosine residues.
+            Inhibited by imatinib/STI-571 (Gleevec), dasatinib,
+            sunitinib/SU11248, lestaurtinib/CEP-701, midostaurin/PKC-412,
+            Ki20227, linifanib/ABT-869, Axitinib/AG013736, sorafenib/BAY
+            43-9006 and GW2580. {ECO:0000269|PubMed:15297464,
+            ECO:0000269|PubMed:18814279}.
+            [SUBUNIT] Monomer. Homodimer. Interacts with CSF1 and IL34.
+            Interaction with dimeric CSF1 or IL34 leads to receptor
+            homodimerization. Interacts with INPPL1/SHIP2 and THOC5. Interacts
+            (tyrosine phosphorylated) with PLCG2 (via SH2 domain). Interacts
+            (tyrosine phosphorylated) with PIK3R1 (via SH2 domain). Interacts
+            (tyrosine phosphorylated) with FYN, YES1 and SRC (via SH2 domain).
+            Interacts (tyrosine phosphorylated) with CBL, GRB2 and SLA2.
+            {ECO:0000269|PubMed:10597251, ECO:0000269|PubMed:11850825,
+            ECO:0000269|PubMed:15557176, ECO:0000269|PubMed:1652061,
+            ECO:0000269|PubMed:17353186, ECO:0000269|PubMed:19017797,
+            ECO:0000269|PubMed:21610095, ECO:0000269|PubMed:8007983,
+            ECO:0000269|PubMed:8262059, ECO:0000269|PubMed:9312046}.
+            [INTERACTION] P09581; P07141: Csf1; NbExp=6; IntAct=EBI-6305373,
+            EBI-777188; P09581; P09603: CSF1; Xeno; NbExp=2;
+            IntAct=EBI-6305373, EBI-2872294.
+            [SUBCELLULAR LOCATION] Cell membrane {ECO:0000269|PubMed:17353186,
+            ECO:0000269|PubMed:8007983}; Single-pass type I membrane protein
+            {ECO:0000269|PubMed:17353186, ECO:0000269|PubMed:8007983}. Note=The
+            autophosphorylated receptor is ubiquitinated and internalized,
+            leading to its degradation.
+            [TISSUE SPECIFICITY] Widely expressed.
+            {ECO:0000269|PubMed:20504948}.
+            [DOMAIN] The juxtamembrane domain functions as autoinhibitory
+            region. Phosphorylation of tyrosine residues in this region leads
+            to a conformation change and activation of the kinase (By
+            similarity). {ECO:0000250}.
+            [DOMAIN] The activation loop plays an important role in the
+            regulation of kinase activity. Phosphorylation of tyrosine residues
+            in this region leads to a conformation change and activation of the
+            kinase (By similarity). {ECO:0000250}.
+            [PTM] Autophosphorylated in response to CSF1 or IL34 binding.
+            Phosphorylation at Tyr-559 is important for normal down-regulation
+            of signaling by ubiquitination, internalization and degradation.
+            Phosphorylation at Tyr-559 and Tyr-807 is important for interaction
+            with SRC family members, including FYN, YES1 and SRC, and for
+            subsequent activation of these protein kinases. Phosphorylation at
+            Tyr-697 and Tyr-921 is important for interaction with GRB2.
+            Phosphorylation at Tyr-721 is important for interaction with
+            PIK3R1. Phosphorylation at Tyr-721 and Tyr-807 is important for
+            interaction with PLCG2. Phosphorylation at Tyr-974 is important for
+            interaction with CBL. Dephosphorylation by PTPN2 negatively
+            regulates downstream signaling and macrophage differentiation.
+            {ECO:0000269|PubMed:11850825, ECO:0000269|PubMed:15297464,
+            ECO:0000269|PubMed:1652061, ECO:0000269|PubMed:17420255,
+            ECO:0000269|PubMed:20504948, ECO:0000269|PubMed:2160591,
+            ECO:0000269|PubMed:21610095, ECO:0000269|PubMed:8007983,
+            ECO:0000269|PubMed:8262059}.
+            [PTM] Ubiquitinated. Becomes rapidly polyubiquitinated after
+            autophosphorylation, leading to its degradation.
+            [DISRUPTION PHENOTYPE] Mice are born at slightly less than the
+            expected Mendelian rate, and the number of surviving mice is
+            significantly reduced after three weeks. Mice are considerably
+            smaller than wild-type littermates and suffer from general skeletal
+            deformities with shortened limbs, increased bone density, and
+            decreased volume of femoral bone marrow. Mice have decreased
+            numbers of circulating monocytes and lymphocytes, decreased numbers
+            of tissue macrophages, paired with an increase in the number of
+            circulating granulocytes. In addition, mice are deaf and have
+            reduced male and female fertility. In females, the duration of the
+            diestrous period is increased, and in pregnant females the
+            lactating mammary gland fails to develop normally. Males mate less
+            frequently and give rise to fewer pregnant females.
+            {ECO:0000269|PubMed:11756160}.
+            [SIMILARITY] Belongs to the protein kinase superfamily. Tyr protein
+            kinase family. CSF-1/PDGF receptor subfamily.
+            {ECO:0000255|PROSITE-ProRule:PRU00159}.
+FEATURES             Location/Qualifiers
+     source          1..977
+                     /organism="Mus musculus"
+                     /db_xref="taxon:10090"
+     gene            1..977
+                     /gene="Csf1r"
+                     /gene_synonym="Csfmr"
+                     /gene_synonym="Fms"
+     Protein         1..977
+                     /product="Macrophage colony-stimulating factor 1 receptor"
+                     /EC_number="2.7.10.1"
+                     /note="CSF-1 receptor; Proto-oncogene c-Fms; CSF-1-R;
+                     CSF-1R; M-CSF-R"
+                     /UniProtKB_evidence="Evidence at protein level"
+     Region          1..19
+                     /region_name="Signal"
+                     /note="/evidence=ECO:0000255."
+     Region          20..977
+                     /region_name="Mature chain"
+                     /note="Macrophage colony-stimulating factor 1 receptor.
+                     /id=PRO_0000016766."
+     Region          20..515
+                     /region_name="Topological domain"
+                     /note="Extracellular. /evidence=ECO:0000255."
+     Region          22..25
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          24..104
+                     /region_name="Domain"
+                     /note="Ig-like C2-type 1."
+     Region          27..32
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          28..101
+                     /region_name="IG_like"
+                     /note="Immunoglobulin like; smart00410"
+                     /db_xref="CDD:214653"
+     Region          38..43
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          38..42
+                     /region_name="Ig strand B"
+                     /note="Ig strand B [structural motif]"
+                     /db_xref="CDD:409353"
+     Bond            bond(42,84)
+                     /bond_type="disulfide"
+                     /note="/evidence=ECO:0000255|PROSITE-ProRule:PRU00114,
+                     ECO:0000269|PubMed:19017797."
+     Site            45
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000269|PubMed:19017797."
+     Region          49..51
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          55..60
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          57
+                     /region_name="Conflict"
+                     /note="Y -> I (in Ref. 1; CAA29666).
+                     /evidence=ECO:0000305."
+     Region          64..66
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:4EXP."
+     Region          67..71
+                     /region_name="Ig strand E"
+                     /note="Ig strand E [structural motif]"
+                     /db_xref="CDD:409353"
+     Region          68..73
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          72
+                     /region_name="Conflict"
+                     /note="R -> S (in Ref. 1; CAA29666).
+                     /evidence=ECO:0000305."
+     Site            73
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000269|PubMed:19017797."
+     Region          76..78
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          80..85
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          81..86
+                     /region_name="Ig strand F"
+                     /note="Ig strand F [structural motif]"
+                     /db_xref="CDD:409353"
+     Region          95..101
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          107..197
+                     /region_name="Domain"
+                     /note="Ig-like C2-type 2."
+     Region          107..111
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          113..195
+                     /region_name="IG_like"
+                     /note="Immunoglobulin like; smart00410"
+                     /db_xref="CDD:214653"
+     Region          113..118
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          123..125
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Bond            bond(127,177)
+                     /bond_type="disulfide"
+                     /note="/evidence=ECO:0000255|PROSITE-ProRule:PRU00114,
+                     ECO:0000269|PubMed:19017797."
+     Region          127..130
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          132..136
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          137..142
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          143..145
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          154..157
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          158..160
+                     /region_name="Hydrogen bonded turn"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          161..166
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          162
+                     /region_name="Conflict"
+                     /note="F -> S (in Ref. 1; CAA29666).
+                     /evidence=ECO:0000305."
+     Region          169..171
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          173..181
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          184..187
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          191..198
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          203..295
+                     /region_name="Ig"
+                     /note="Immunoglobulin domain; cl11960"
+                     /db_xref="CDD:472250"
+     Region          204..298
+                     /region_name="Domain"
+                     /note="Ig-like C2-type 3."
+     Region          204..213
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          216..218
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          220..231
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          220..224
+                     /region_name="Ig strand B"
+                     /note="Ig strand B [structural motif]"
+                     /db_xref="CDD:409353"
+     Bond            bond(224,278)
+                     /bond_type="disulfide"
+                     /note="/evidence=ECO:0000255|PROSITE-ProRule:PRU00114,
+                     ECO:0000269|PubMed:19017797."
+     Region          234..239
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          234..238
+                     /region_name="Ig strand C"
+                     /note="Ig strand C [structural motif]"
+                     /db_xref="CDD:409353"
+     Region          248..252
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          254..267
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          259..263
+                     /region_name="Ig strand E"
+                     /note="Ig strand E [structural motif]"
+                     /db_xref="CDD:409353"
+     Region          270..272
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          274..281
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          275..280
+                     /region_name="Ig strand F"
+                     /note="Ig strand F [structural motif]"
+                     /db_xref="CDD:409353"
+     Region          286..294
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3EJJ."
+     Region          288..291
+                     /region_name="Ig strand G"
+                     /note="Ig strand G [structural motif]"
+                     /db_xref="CDD:409353"
+     Region          299..398
+                     /region_name="Ig"
+                     /note="Immunoglobulin domain; cl11960"
+                     /db_xref="CDD:472250"
+     Region          299..397
+                     /region_name="Domain"
+                     /note="Ig-like C2-type 4."
+     Site            302
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255."
+     Region          319..323
+                     /region_name="Ig strand B"
+                     /note="Ig strand B [structural motif]"
+                     /db_xref="CDD:409353"
+     Region          333..337
+                     /region_name="Ig strand C"
+                     /note="Ig strand C [structural motif]"
+                     /db_xref="CDD:409353"
+     Site            335
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255."
+     Region          362..366
+                     /region_name="Ig strand E"
+                     /note="Ig strand E [structural motif]"
+                     /db_xref="CDD:409353"
+     Region          376..381
+                     /region_name="Ig strand F"
+                     /note="Ig strand F [structural motif]"
+                     /db_xref="CDD:409353"
+     Region          389..392
+                     /region_name="Ig strand G"
+                     /note="Ig strand G [structural motif]"
+                     /db_xref="CDD:409353"
+     Site            389
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255."
+     Region          398..503
+                     /region_name="Domain"
+                     /note="Ig-like C2-type 5."
+     Region          399..487
+                     /region_name="Ig_3"
+                     /note="Immunoglobulin domain; pfam13927"
+                     /db_xref="CDD:464046"
+     Site            410
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255."
+     Bond            bond(417,483)
+                     /bond_type="disulfide"
+                     /note="/evidence=ECO:0000255|PROSITE-ProRule:PRU00114."
+     Region          446..447
+                     /region_name="Conflict"
+                     /note="QV -> HL (in Ref. 1; CAA29666).
+                     /evidence=ECO:0000305."
+     Site            449
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255."
+     Region          474
+                     /region_name="Conflict"
+                     /note="T -> P (in Ref. 1; CAA29666).
+                     /evidence=ECO:0000305."
+     Site            478
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255."
+     Site            491
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000269|PubMed:16944957."
+     Region          516..536
+                     /region_name="Transmembrane region"
+                     /note="Helical. /evidence=ECO:0000255."
+     Region          537..977
+                     /region_name="Topological domain"
+                     /note="Cytoplasmic. /evidence=ECO:0000255."
+     Region          540..572
+                     /region_name="Region of interest in the sequence"
+                     /note="Regulatory juxtamembrane domain.
+                     /evidence=ECO:0000250."
+     Region          541..913
+                     /region_name="PTKc_CSF-1R"
+                     /note="Catalytic domain of the Protein Tyrosine Kinase,
+                     Colony-Stimulating Factor-1 Receptor; cd05106"
+                     /db_xref="CDD:133237"
+     Site            544
+                     /site_type="phosphorylation"
+                     /note="Phosphotyrosine; by autocatalysis.
+                     /evidence=ECO:0000250|UniProtKB:P07333."
+     Site            544
+                     /site_type="mutagenized"
+                     /note="Y->F: No effect on binding to THOC5.
+                     /evidence=ECO:0000269|PubMed:10597251."
+     Site            559
+                     /site_type="phosphorylation"
+                     /note="Phosphotyrosine; by autocatalysis.
+                     /evidence=ECO:0000269|PubMed:15297464,
+                     ECO:0000269|PubMed:20504948, ECO:0000269|PubMed:8007983."
+     Site            559
+                     /site_type="mutagenized"
+                     /note="Y->F: Reduced interaction with CBL. Prolonged
+                     signaling, due to reduced internalization and degradation.
+                     Reduced interaction with FYN. Promotes cell proliferation.
+                     Reduced autophosphorylation at Tyr-807.
+                     /evidence=ECO:0000269|PubMed:15297464,
+                     ECO:0000269|PubMed:17420255, ECO:0000269|PubMed:8007983."
+     Region          580..913
+                     /region_name="Domain"
+                     /note="Protein kinase.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU00159."
+     Site            order(586..587,589..592,594,612,614,662,664,668,776,
+                     780..781,783,794,812..816,825,860)
+                     /site_type="active"
+                     /db_xref="CDD:133237"
+     Site            order(586..587,589..592,594,612,614,662,664,668,780..781,
+                     783,794)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:133237"
+     Site            614
+                     /site_type="mutagenized"
+                     /note="K->A: Loss of kinase activity.
+                     /evidence=ECO:0000269|PubMed:10597251,
+                     ECO:0000269|PubMed:8262059, ECO:0000269|PubMed:9312046."
+     Site            614
+                     /site_type="mutagenized"
+                     /note="K->M: Loss of kinase activity. Abolishes binding to
+                     THOC5. /evidence=ECO:0000269|PubMed:10597251,
+                     ECO:0000269|PubMed:8262059, ECO:0000269|PubMed:9312046."
+     Region          660
+                     /region_name="Conflict"
+                     /note="I -> Y (in Ref. 1; CAA29666).
+                     /evidence=ECO:0000305."
+     Region          669
+                     /region_name="Conflict"
+                     /note="L -> H (in Ref. 1; CAA29666).
+                     /evidence=ECO:0000305."
+     Site            697
+                     /site_type="phosphorylation"
+                     /note="Phosphotyrosine; by autocatalysis.
+                     /evidence=ECO:0000269|PubMed:8262059."
+     Site            697
+                     /site_type="mutagenized"
+                     /note="Y->F: Abolishes interaction with GRB2.
+                     /evidence=ECO:0000269|PubMed:8262059,
+                     ECO:0000269|PubMed:9312046."
+     Site            706
+                     /site_type="phosphorylation"
+                     /note="Phosphotyrosine; by autocatalysis.
+                     /evidence=ECO:0000269|PubMed:1652061,
+                     ECO:0000269|PubMed:2160591, ECO:0000269|PubMed:21610095,
+                     ECO:0000269|PubMed:8262059."
+     Site            706
+                     /site_type="mutagenized"
+                     /note="Y->F: No effect on binding to THOC5. Slightly
+                     reduced enhancement of cell proliferation.
+                     /evidence=ECO:0000269|PubMed:10597251,
+                     ECO:0000269|PubMed:1652061."
+     Site            706
+                     /site_type="mutagenized"
+                     /note="Y->G: Slightly impaired signaling.
+                     /evidence=ECO:0000269|PubMed:10597251,
+                     ECO:0000269|PubMed:1652061."
+     Site            711
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:21183079."
+     Site            721
+                     /site_type="phosphorylation"
+                     /note="Phosphotyrosine; by autocatalysis.
+                     /evidence=ECO:0000269|PubMed:20504948,
+                     ECO:0000269|PubMed:21610095, ECO:0000269|PubMed:8262059."
+     Site            721
+                     /site_type="mutagenized"
+                     /note="Y->F: Abolishes interaction with PIK3R1. Strongly
+                     reduced phosphorylation of PLCG2. No effect on binding to
+                     THOC5. /evidence=ECO:0000269|PubMed:10597251,
+                     ECO:0000269|PubMed:21610095, ECO:0000269|PubMed:8262059,
+                     ECO:0000269|PubMed:9312046."
+     Region          744
+                     /region_name="Conflict"
+                     /note="A -> H (in Ref. 1; CAA29666).
+                     /evidence=ECO:0000305."
+     Site            order(776,780,812..816,825,860)
+                     /site_type="other"
+                     /note="polypeptide substrate binding site [polypeptide
+                     binding]"
+                     /db_xref="CDD:133237"
+     Site            776
+                     /site_type="active"
+                     /note="Proton acceptor.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU00159,
+                     ECO:0000255|PROSITE-ProRule:PRU10028."
+     Site            793..818
+                     /site_type="other"
+                     /note="activation loop (A-loop)"
+                     /db_xref="CDD:133237"
+     Region          794..816
+                     /region_name="Region of interest in the sequence"
+                     /note="Activation loop. /evidence=ECO:0000250."
+     Site            807
+                     /site_type="phosphorylation"
+                     /note="Phosphotyrosine; by autocatalysis.
+                     /evidence=ECO:0000269|PubMed:1652061,
+                     ECO:0000269|PubMed:20504948, ECO:0000269|PubMed:2160591,
+                     ECO:0000269|PubMed:8007983, ECO:0000269|PubMed:8262059."
+     Site            807
+                     /site_type="mutagenized"
+                     /note="Y->F: Reduced kinase activity. Strongly reduced
+                     phosphorylation of PLCG2. Diminishes binding to THOC5.
+                     /evidence=ECO:0000269|PubMed:10597251,
+                     ECO:0000269|PubMed:1652061, ECO:0000269|PubMed:9312046."
+     Site            807
+                     /site_type="mutagenized"
+                     /note="Y->G: May alter protein folding or stability. Loss
+                     of kinase activity. No effect on interaction with PIK3R1.
+                     /evidence=ECO:0000269|PubMed:10597251,
+                     ECO:0000269|PubMed:1652061, ECO:0000269|PubMed:9312046."
+     Region          814
+                     /region_name="Conflict"
+                     /note="Missing (in Ref. 1; CAA29666).
+                     /evidence=ECO:0000305."
+     Region          830
+                     /region_name="Conflict"
+                     /note="Y -> I (in Ref. 1; CAA29666).
+                     /evidence=ECO:0000305."
+     Region          858
+                     /region_name="Conflict"
+                     /note="L -> H (in Ref. 1; CAA29666).
+                     /evidence=ECO:0000305."
+     Region          921..957
+                     /region_name="Region of interest in the sequence"
+                     /note="Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Site            921
+                     /site_type="phosphorylation"
+                     /note="Phosphotyrosine; by autocatalysis.
+                     /evidence=ECO:0000305|PubMed:17420255."
+     Region          923..947
+                     /region_name="Compositionally biased region"
+                     /note="Polar residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Site            974
+                     /site_type="phosphorylation"
+                     /note="Phosphotyrosine; by autocatalysis.
+                     /evidence=ECO:0000269|PubMed:11850825."
+ORIGIN      
+        1 melgpplvll latvwhgqga pviepsgpel vvepgetvtl rcvsngsvew dgpispywtl
+       61 dpespgstlt trnatfkntg tyrcteledp magsttihly vkdpahswnl laqevtvveg
+      121 qeavlpclit dpalkdsvsl mreggrqvlr ktvyffspwr gfiirkakvl dsntyvcktm
+      181 vngreststg iwlkvnrvhp eppqikleps klvrirgeaa qivcsatnae vgfnvilkrg
+      241 dtkleiplns dfqdnyykkv ralslnavdf qdagiyscva sndvgtrtat mnfqvvesay
+      301 lnltseqsll qevsvgdsli ltvhadayps iqhynwtylg pffedqrkle fitqraiyry
+      361 tfklflnrvk aseagqyflm aqnkagwnnl tfeltlrypp evsvtwmpvn gsdvlfcdvs
+      421 gypqpsvtwm ecrghtdrcd eaqalqvwnd thpevlsqkp fdkviiqsql pigtlkhnmt
+      481 yfckthnsvg nssqyfravs lgqskqlpde slftpvvvac msvmsllvll lllllykykq
+      541 kpkyqvrwki ieryegnsyt fidptqlpyn ekwefprnnl qfgktlgaga fgkvveataf
+      601 glgkedavlk vavkmlksta hadekealms elkimshlgq henivnllga cthggpvlvi
+      661 teyccygdll nflrrkaeam lgpslspgqd segdssykni hlekkyvrrd sgfssqgvdt
+      721 yvemrpvsts ssdsffkqdl dkeasrplel wdllhfssqv aqgmaflask ncihrdvaar
+      781 nvlltsghva kigdfglard imndsnyvvk gnarlpvkwm apesifdcvy tvqsdvwsyg
+      841 illweifslg lnpypgilvn nkfyklvkdg yqmaqpvfap kniysimqsc wdleptrrpt
+      901 fqqicfllqe qarlerrdqd yanlpssggs sgsdsgggss ggsssepeee sssehlacce
+      961 pgdiaqpllq pnnyqfc
+//
+

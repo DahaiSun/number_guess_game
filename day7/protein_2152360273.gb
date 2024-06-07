@@ -1,0 +1,912 @@
+LOCUS       GCR_MOUSE                792 aa            linear   ROD 29-MAY-2024
+DEFINITION  RecName: Full=Glucocorticoid receptor; Short=GR; AltName:
+            Full=Nuclear receptor subfamily 3 group C member 1.
+ACCESSION   P06537
+VERSION     P06537.2
+DBSOURCE    UniProtKB: locus GCR_MOUSE, accession P06537;
+            class: standard.
+            extra
+            accessions:E0ZPU5,E9PUR6,E9PYV1,Q06VW2,Q3U126,Q3U2M7,Q61628,Q61629
+            created: Jan 1, 1988.
+            sequence updated: Sep 29, 2021.
+            annotation updated: May 29, 2024.
+            xrefs: X04435.1, CAA28031.1, DQ504162.1, ABF57998.1, HM236293.1,
+            ADM18962.1, AK155200.1, BAE33113.1, AK156323.1, BAE33674.1,
+            GL456180.3, BC129912.1, AAI29913.1, BC129913.1, AAI29914.1,
+            X13358.1, CAA31738.1, X13359.1, CAA31739.1, A25691, NP_032199.3,
+            XP_006525721.1, XP_006525722.1, XP_006525723.1, XP_006525724.1,
+            XP_006525725.1, XP_006525726.1, XP_006525727.1, XP_006525728.1,
+            XP_006525729.1, XP_017173324.1, XP_017173325.1, XP_017173326.1,
+            XP_017173327.1, 3MNE_A, 3MNO_A, 3MNP_A
+            xrefs (non-sequence databases): CCDS:CCDS37791.1, PDBsum:3MNE,
+            PDBsum:3MNO, PDBsum:3MNP, AlphaFoldDB:P06537, SMR:P06537,
+            CORUM:P06537, DIP:DIP-11N, IntAct:P06537, MINT:P06537,
+            STRING:10090.ENSMUSP00000111229, BindingDB:P06537,
+            ChEMBL:CHEMBL3144, DrugCentral:P06537, GuidetoPHARMACOLOGY:625,
+            GlyGen:P06537, iPTMnet:P06537, PhosphoSitePlus:P06537,
+            SwissPalm:P06537, EPD:P06537, jPOST:P06537, MaxQB:P06537,
+            PaxDb:10090-ENSMUSP00000095199, PeptideAtlas:P06537,
+            ProteomicsDB:271197, ProteomicsDB:271198, ProteomicsDB:271199,
+            ProteomicsDB:271200, ProteomicsDB:271201, ProteomicsDB:333325,
+            ProteomicsDB:355014, Pumba:P06537, Antibodypedia:1329, DNASU:14815,
+            Ensembl:ENSMUST00000025300.13, Ensembl:ENSMUSP00000025300.7,
+            Ensembl:ENSMUSG00000024431.16, Ensembl:ENSMUST00000097592.9,
+            Ensembl:ENSMUSP00000095199.3, Ensembl:ENSMUST00000115567.8,
+            Ensembl:ENSMUSP00000111229.2, Ensembl:ENSMUST00000115571.8,
+            Ensembl:ENSMUSP00000111233.2, GeneID:14815, KEGG:mmu:14815,
+            UCSC:uc008esx.1, AGR:MGI:95824, CTD:2908, MGI:95824,
+            VEuPathDB:HostDB:ENSMUSG00000024431, eggNOG:KOG3575,
+            GeneTree:ENSGT00940000156385, HOGENOM:CLU_020317_0_0_1,
+            InParanoid:P06537, OMA:GLYMGDT, OrthoDB:5305911at2759,
+            TreeFam:TF106510, Reactome:R-MMU-3371497, Reactome:R-MMU-383280,
+            Reactome:R-MMU-4090294, BioGRID-ORCS:14815, ChiTaRS:Nr3c1,
+            EvolutionaryTrace:P06537, PRO:PR:P06537, Proteomes:UP000000589,
+            RNAct:P06537, Bgee:ENSMUSG00000024431, GO:0005813, GO:0005737,
+            GO:0005829, GO:0043197, GO:0098978, GO:0016020, GO:0005739,
+            GO:0016607, GO:0005654, GO:0005634, GO:0099092, GO:0032991,
+            GO:0005819, GO:0003682, GO:0001046, GO:0003677, GO:0001228,
+            GO:0003700, GO:0001227, GO:0003690, GO:0034056, GO:0031072,
+            GO:0042562, GO:0030544, GO:0051879, GO:0042802, GO:0004883,
+            GO:0004879, GO:0019901, GO:0044877, GO:0030971, GO:0000977,
+            GO:0043565, GO:0005496, GO:1990239, GO:0017025, GO:0003713,
+            GO:0008270, GO:0030325, GO:0048708, GO:0071549, GO:0071560,
+            GO:0006338, GO:0010467, GO:0008211, GO:0042921, GO:0030518,
+            GO:0060603, GO:0042711, GO:0014004, GO:0061744, GO:0043066,
+            GO:0031914, GO:0043116, GO:0150076, GO:0061051, GO:0060999,
+            GO:2000324, GO:0014049, GO:1902895, GO:0043525, GO:0045944,
+            GO:0042127, GO:0006355, GO:0031946, GO:0006111, GO:0010906,
+            GO:0006357, GO:0046685, GO:0035249, GO:0045815, CDD:cd07172,
+            CDD:cd07076, Gene3D:3.30.50.10, Gene3D:1.10.565.10,
+            InterPro:IPR001409, InterPro:IPR035500, InterPro:IPR000536,
+            InterPro:IPR001723, InterPro:IPR001628, InterPro:IPR013088,
+            PANTHER:PTHR48092:SF5, PANTHER:PTHR48092, Pfam:PF02155,
+            Pfam:PF00104, Pfam:PF00105, PRINTS:PR00528, PRINTS:PR00398,
+            PRINTS:PR00047, SMART:SM00430, SMART:SM00399, SUPFAM:SSF57716,
+            SUPFAM:SSF48508, PROSITE:PS51843, PROSITE:PS00031, PROSITE:PS51030
+KEYWORDS    3D-structure; Acetylation; Alternative initiation; Alternative
+            splicing; Chromatin regulator; Cytoplasm; Cytoskeleton;
+            DNA-binding; Isopeptide bond; Lipid-binding; Metal-binding;
+            Methylation; Mitochondrion; Nucleus; Phosphoprotein; Receptor;
+            Reference proteome; Steroid-binding; Transcription; Transcription
+            regulation; Ubl conjugation; Zinc; Zinc-finger.
+SOURCE      Mus musculus (house mouse)
+  ORGANISM  Mus musculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha;
+            Muroidea; Muridae; Murinae; Mus; Mus.
+REFERENCE   1  (residues 1 to 792)
+  AUTHORS   Danielsen,M., Northrop,J.P. and Ringold,G.M.
+  TITLE     The mouse glucocorticoid receptor: mapping of functional domains by
+            cloning, sequencing and expression of wild-type and mutant receptor
+            proteins
+  JOURNAL   EMBO J 5 (10), 2513-2522 (1986)
+   PUBMED   3780669
+  REMARK    NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), AND VARIANT 78-GLN--GLN-86
+            DEL.
+REFERENCE   2  (residues 1 to 792)
+  AUTHORS   Xu,D., Buehner,A., Xu,J., Lambert,T., Nekl,C., Nielsen,M.K. and
+            Zhou,Y.
+  TITLE     A polymorphic glucocorticoid receptor in a mouse population may
+            explain inherited altered stress response and increased
+            anxiety-type behaviors
+  JOURNAL   FASEB J 20 (13), 2414-2416 (2006)
+   PUBMED   17012242
+  REMARK    NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), VARIANT GLN-91 DEL, AND
+            POLYMORPHISM.
+REFERENCE   3  (residues 1 to 792)
+  AUTHORS   Hinds,T.D. Jr., Ramakrishnan,S., Cash,H.A., Stechschulte,L.A.,
+            Heinrich,G., Najjar,S.M. and Sanchez,E.R.
+  TITLE     Discovery of glucocorticoid receptor-beta in mice with a role in
+            metabolism
+  JOURNAL   Mol Endocrinol 24 (9), 1715-1727 (2010)
+   PUBMED   20660300
+  REMARK    NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 3), FUNCTION, SUBCELLULAR
+            LOCATION, TISSUE SPECIFICITY, INDUCTION, AND VARIANT 78-GLN--GLN-86
+            DEL.
+REFERENCE   4  (residues 1 to 792)
+  AUTHORS   Carninci,P., Kasukawa,T., Katayama,S., Gough,J., Frith,M.C.,
+            Maeda,N., Oyama,R., Ravasi,T., Lenhard,B., Wells,C., Kodzius,R.,
+            Shimokawa,K., Bajic,V.B., Brenner,S.E., Batalov,S., Forrest,A.R.,
+            Zavolan,M., Davis,M.J., Wilming,L.G., Aidinis,V., Allen,J.E.,
+            Ambesi-Impiombato,A., Apweiler,R., Aturaliya,R.N., Bailey,T.L.,
+            Bansal,M., Baxter,L., Beisel,K.W., Bersano,T., Bono,H., Chalk,A.M.,
+            Chiu,K.P., Choudhary,V., Christoffels,A., Clutterbuck,D.R.,
+            Crowe,M.L., Dalla,E., Dalrymple,B.P., de Bono,B., Della Gatta,G.,
+            di Bernardo,D., Down,T., Engstrom,P., Fagiolini,M., Faulkner,G.,
+            Fletcher,C.F., Fukushima,T., Furuno,M., Futaki,S., Gariboldi,M.,
+            Georgii-Hemming,P., Gingeras,T.R., Gojobori,T., Green,R.E.,
+            Gustincich,S., Harbers,M., Hayashi,Y., Hensch,T.K., Hirokawa,N.,
+            Hill,D., Huminiecki,L., Iacono,M., Ikeo,K., Iwama,A., Ishikawa,T.,
+            Jakt,M., Kanapin,A., Katoh,M., Kawasawa,Y., Kelso,J., Kitamura,H.,
+            Kitano,H., Kollias,G., Krishnan,S.P., Kruger,A., Kummerfeld,S.K.,
+            Kurochkin,I.V., Lareau,L.F., Lazarevic,D., Lipovich,L., Liu,J.,
+            Liuni,S., McWilliam,S., Madan Babu,M., Madera,M., Marchionni,L.,
+            Matsuda,H., Matsuzawa,S., Miki,H., Mignone,F., Miyake,S.,
+            Morris,K., Mottagui-Tabar,S., Mulder,N., Nakano,N., Nakauchi,H.,
+            Ng,P., Nilsson,R., Nishiguchi,S., Nishikawa,S., Nori,F., Ohara,O.,
+            Okazaki,Y., Orlando,V., Pang,K.C., Pavan,W.J., Pavesi,G.,
+            Pesole,G., Petrovsky,N., Piazza,S., Reed,J., Reid,J.F., Ring,B.Z.,
+            Ringwald,M., Rost,B., Ruan,Y., Salzberg,S.L., Sandelin,A.,
+            Schneider,C., Schonbach,C., Sekiguchi,K., Semple,C.A., Seno,S.,
+            Sessa,L., Sheng,Y., Shibata,Y., Shimada,H., Shimada,K., Silva,D.,
+            Sinclair,B., Sperling,S., Stupka,E., Sugiura,K., Sultana,R.,
+            Takenaka,Y., Taki,K., Tammoja,K., Tan,S.L., Tang,S., Taylor,M.S.,
+            Tegner,J., Teichmann,S.A., Ueda,H.R., van Nimwegen,E., Verardo,R.,
+            Wei,C.L., Yagi,K., Yamanishi,H., Zabarovsky,E., Zhu,S., Zimmer,A.,
+            Hide,W., Bult,C., Grimmond,S.M., Teasdale,R.D., Liu,E.T.,
+            Brusic,V., Quackenbush,J., Wahlestedt,C., Mattick,J.S., Hume,D.A.,
+            Kai,C., Sasaki,D., Tomaru,Y., Fukuda,S., Kanamori-Katayama,M.,
+            Suzuki,M., Aoki,J., Arakawa,T., Iida,J., Imamura,K., Itoh,M.,
+            Kato,T., Kawaji,H., Kawagashira,N., Kawashima,T., Kojima,M.,
+            Kondo,S., Konno,H., Nakano,K., Ninomiya,N., Nishio,T., Okada,M.,
+            Plessy,C., Shibata,K., Shiraki,T., Suzuki,S., Tagami,M., Waki,K.,
+            Watahiki,A., Okamura-Oho,Y., Suzuki,H., Kawai,J. and Hayashizaki,Y.
+  CONSRTM   FANTOM Consortium; RIKEN Genome Exploration Research Group and
+            Genome Science Group (Genome Network Project Core Group)
+  TITLE     The transcriptional landscape of the mammalian genome
+  JOURNAL   Science 309 (5740), 1559-1563 (2005)
+   PUBMED   16141072
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1), AND VARIANT
+            78-GLN--GLN-86 DEL.;
+            STRAIN=NOD
+            Erratum:[Science. 2006 Mar 24;311(5768):1713]
+REFERENCE   5  (residues 1 to 792)
+  AUTHORS   Church,D.M., Goodstadt,L., Hillier,L.W., Zody,M.C., Goldstein,S.,
+            She,X., Bult,C.J., Agarwala,R., Cherry,J.L., DiCuccio,M.,
+            Hlavina,W., Kapustin,Y., Meric,P., Maglott,D., Birtle,Z.,
+            Marques,A.C., Graves,T., Zhou,S., Teague,B., Potamousis,K.,
+            Churas,C., Place,M., Herschleb,J., Runnheim,R., Forrest,D.,
+            Amos-Landgraf,J., Schwartz,D.C., Cheng,Z., Lindblad-Toh,K.,
+            Eichler,E.E. and Ponting,C.P.
+  CONSRTM   Mouse Genome Sequencing Consortium
+  TITLE     Lineage-specific biology revealed by a finished genome assembly of
+            the mouse
+  JOURNAL   PLoS Biol 7 (5), e1000112 (2009)
+   PUBMED   19468303
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].;
+            STRAIN=C57BL/6J
+REFERENCE   6  (residues 1 to 792)
+  AUTHORS   Gerhard,D.S., Wagner,L., Feingold,E.A., Shenmen,C.M., Grouse,L.H.,
+            Schuler,G., Klein,S.L., Old,S., Rasooly,R., Good,P., Guyer,M.,
+            Peck,A.M., Derge,J.G., Lipman,D., Collins,F.S., Jang,W., Sherry,S.,
+            Feolo,M., Misquitta,L., Lee,E., Rotmistrovsky,K., Greenhut,S.F.,
+            Schaefer,C.F., Buetow,K., Bonner,T.I., Haussler,D., Kent,J.,
+            Kiekhaus,M., Furey,T., Brent,M., Prange,C., Schreiber,K.,
+            Shapiro,N., Bhat,N.K., Hopkins,R.F., Hsie,F., Driscoll,T.,
+            Soares,M.B., Casavant,T.L., Scheetz,T.E., Brown-stein,M.J.,
+            Usdin,T.B., Toshiyuki,S., Carninci,P., Piao,Y., Dudekula,D.B.,
+            Ko,M.S., Kawakami,K., Suzuki,Y., Sugano,S., Gruber,C.E.,
+            Smith,M.R., Simmons,B., Moore,T., Waterman,R., Johnson,S.L.,
+            Ruan,Y., Wei,C.L., Mathavan,S., Gunaratne,P.H., Wu,J., Garcia,A.M.,
+            Hulyk,S.W., Fuh,E., Yuan,Y., Sneed,A., Kowis,C., Hodgson,A.,
+            Muzny,D.M., McPherson,J., Gibbs,R.A., Fahey,J., Helton,E.,
+            Ketteman,M., Madan,A., Rodrigues,S., Sanchez,A., Whiting,M.,
+            Madari,A., Young,A.C., Wetherby,K.D., Granite,S.J., Kwong,P.N.,
+            Brinkley,C.P., Pearson,R.L., Bouffard,G.G., Blakesly,R.W.,
+            Green,E.D., Dickson,M.C., Rodriguez,A.C., Grimwood,J., Schmutz,J.,
+            Myers,R.M., Butterfield,Y.S., Griffith,M., Griffith,O.L.,
+            Krzywinski,M.I., Liao,N., Morin,R., Palmquist,D., Petrescu,A.S.,
+            Skalska,U., Smailus,D.E., Stott,J.M., Schnerch,A., Schein,J.E.,
+            Jones,S.J., Holt,R.A., Baross,A., Marra,M.A., Clifton,S.,
+            Makowski,K.A., Bosak,S. and Malek,J.
+  CONSRTM   MGC Project Team
+  TITLE     The status, quality, and expansion of the NIH full-length cDNA
+            project: the Mammalian Gene Collection (MGC)
+  JOURNAL   Genome Res 14 (10B), 2121-2127 (2004)
+   PUBMED   15489334
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1), AND VARIANT
+            78-GLN--GLN-86 DEL.
+            Erratum:[Genome Res. 2006 Jun;16(6):804. Morrin, Ryan [corrected to
+            Morin, Ryan]]
+REFERENCE   7  (residues 1 to 792)
+  AUTHORS   Nohno,T., Kasai,Y. and Saito,T.
+  TITLE     Novel cDNA sequence possibly generated by alternative splicing of a
+            mouse glucocorticoid receptor gene transcript from Shionogi
+            carcinoma 115
+  JOURNAL   Nucleic Acids Res 17 (1), 445 (1989)
+   PUBMED   2911477
+  REMARK    NUCLEOTIDE SEQUENCE [MRNA] OF 1-764 (ISOFORMS 1 AND 2).
+REFERENCE   8  (residues 1 to 792)
+  AUTHORS   Vedeckis,W.V., Ali,M. and Allen,H.R.
+  TITLE     Regulation of glucocorticoid receptor protein and mRNA levels
+  JOURNAL   Cancer Res 49 (8 Suppl), 2295s-2302s (1989)
+   PUBMED   2702670
+  REMARK    GLUCOCORTICOID-MEDIATED DOWN-REGULATION.
+REFERENCE   9  (residues 1 to 792)
+  AUTHORS   Bodwell,J.E., Orti,E., Coull,J.M., Pappin,D.J., Smith,L.I. and
+            Swift,F.
+  TITLE     Identification of phosphorylated sites in the mouse glucocorticoid
+            receptor
+  JOURNAL   J Biol Chem 266 (12), 7549-7555 (1991)
+   PUBMED   2019585
+  REMARK    PHOSPHORYLATION AT SER-131; SER-159; THR-168; SER-221; SER-229;
+            SER-243 AND SER-324.
+REFERENCE   10 (residues 1 to 792)
+  AUTHORS   Silverstein,A.M., Galigniana,M.D., Chen,M.S., Owens-Grillo,J.K.,
+            Chinkers,M. and Pratt,W.B.
+  TITLE     Protein phosphatase 5 is a major component of glucocorticoid
+            receptor.hsp90 complexes with properties of an FK506-binding
+            immunophilin
+  JOURNAL   J Biol Chem 272 (26), 16224-16230 (1997)
+   PUBMED   9195923
+  REMARK    IDENTIFICATION IN A COMPLEX WITH NR3C1 AND FKBP4; PPID; PPP5C OR
+            STIP1.
+REFERENCE   11 (residues 1 to 792)
+  AUTHORS   Cella,N., Groner,B. and Hynes,N.E.
+  TITLE     Characterization of Stat5a and Stat5b homodimers and heterodimers
+            and their association with the glucocortiocoid receptor in mammary
+            cells
+  JOURNAL   Mol Cell Biol 18 (4), 1783-1792 (1998)
+   PUBMED   9528750
+  REMARK    INTERACTION WITH STAT5A AND STAT5B.
+REFERENCE   12 (residues 1 to 792)
+  AUTHORS   Chang,C.J., Chen,Y.L. and Lee,S.C.
+  TITLE     Coactivator TIF1beta interacts with transcription factor C/EBPbeta
+            and glucocorticoid receptor to induce alpha1-acid glycoprotein gene
+            expression
+  JOURNAL   Mol Cell Biol 18 (10), 5880-5887 (1998)
+   PUBMED   9742105
+  REMARK    INTERACTION WITH TRIM28.
+REFERENCE   13 (residues 1 to 792)
+  AUTHORS   Yang,L., Guerrero,J., Hong,H., DeFranco,D.B. and Stallcup,M.R.
+  TITLE     Interaction of the tau2 transcriptional activation domain of
+            glucocorticoid receptor with a novel steroid receptor coactivator,
+            Hic-5, which localizes to both focal adhesions and the nuclear
+            matrix
+  JOURNAL   Mol Biol Cell 11 (6), 2007-2018 (2000)
+   PUBMED   10848625
+  REMARK    INTERACTION WITH TGFB1I1.
+REFERENCE   14 (residues 1 to 792)
+  AUTHORS   McNally,J.G., Muller,W.G., Walker,D., Wolford,R. and Hager,G.L.
+  TITLE     The glucocorticoid receptor: rapid exchange with regulatory sites
+            in living cells
+  JOURNAL   Science 287 (5456), 1262-1265 (2000)
+   PUBMED   10678832
+  REMARK    FUNCTION, AND SUBCELLULAR LOCATION.
+REFERENCE   15 (residues 1 to 792)
+  AUTHORS   Galigniana,M.D., Radanyi,C., Renoir,J.M., Housley,P.R. and
+            Pratt,W.B.
+  TITLE     Evidence that the peptidylprolyl isomerase domain of the
+            hsp90-binding immunophilin FKBP52 is involved in both dynein
+            interaction and glucocorticoid receptor movement to the nucleus
+  JOURNAL   J Biol Chem 276 (18), 14884-14889 (2001)
+   PUBMED   11278753
+  REMARK    SUBCELLULAR LOCATION, HETEROMULTIMERIC COMPLEX FORMATION,
+            INTERACTION WITH FKBP4, AND MECHANISM OF TRANSLOCATION TO THE
+            NUCLEUS.
+REFERENCE   16 (residues 1 to 792)
+  AUTHORS   Wallace,A.D. and Cidlowski,J.A.
+  TITLE     Proteasome-mediated glucocorticoid receptor degradation restricts
+            transcriptional signaling by glucocorticoids
+  JOURNAL   J Biol Chem 276 (46), 42714-42721 (2001)
+   PUBMED   11555652
+  REMARK    UBIQUITINATION AT LYS-435, MUTAGENESIS OF LYS-435, AND
+            GLUCOCORTICOID-MEDIATED DOWN-REGULATION.
+REFERENCE   17 (residues 1 to 792)
+  AUTHORS   Yudt,M.R. and Cidlowski,J.A.
+  TITLE     Molecular identification and characterization of a and b forms of
+            the glucocorticoid receptor
+  JOURNAL   Mol Endocrinol 15 (7), 1093-1103 (2001)
+   PUBMED   11435610
+  REMARK    ALTERNATIVE INITIATION, AND MUTAGENESIS OF MET-1 AND MET-28.
+REFERENCE   18 (residues 1 to 792)
+  AUTHORS   Davies,T.H., Ning,Y.M. and Sanchez,E.R.
+  TITLE     A new first step in activation of steroid receptors:
+            hormone-induced switching of FKBP51 and FKBP52 immunophilins
+  JOURNAL   J Biol Chem 277 (7), 4597-4600 (2002)
+   PUBMED   11751894
+  REMARK    HETEROMULTIMERIC COMPLEX FORMATION, AND MECHANISM OF TRANSLOCATION
+            TO THE NUCLEUS.
+REFERENCE   19 (residues 1 to 792)
+  AUTHORS   Brewer,J.A., Khor,B., Vogt,S.K., Muglia,L.M., Fujiwara,H.,
+            Haegele,K.E., Sleckman,B.P. and Muglia,L.J.
+  TITLE     T-cell glucocorticoid receptor is required to suppress
+            COX-2-mediated lethal immune activation
+  JOURNAL   Nat Med 9 (10), 1318-1322 (2003)
+   PUBMED   12949501
+  REMARK    INVOLVEMENT IN IMMUNE SYSTEM DEVELOPMENT.
+REFERENCE   20 (residues 1 to 792)
+  AUTHORS   Tronche,F., Opherk,C., Moriggl,R., Kellendonk,C., Reimann,A.,
+            Schwake,L., Reichardt,H.M., Stangl,K., Gau,D., Hoeflich,A.,
+            Beug,H., Schmid,W. and Schutz,G.
+  TITLE     Glucocorticoid receptor function in hepatocytes is essential to
+            promote postnatal body growth
+  JOURNAL   Genes Dev 18 (5), 492-497 (2004)
+   PUBMED   15037546
+  REMARK    POSSIBLE FUNCTION IN THE CONTROL OF BODY GROWTH.
+REFERENCE   21 (residues 1 to 792)
+  AUTHORS   Huttlin,E.L., Jedrychowski,M.P., Elias,J.E., Goswami,T., Rad,R.,
+            Beausoleil,S.A., Villen,J., Haas,W., Sowa,M.E. and Gygi,S.P.
+  TITLE     A tissue-specific atlas of mouse protein phosphorylation and
+            expression
+  JOURNAL   Cell 143 (7), 1174-1189 (2010)
+   PUBMED   21183079
+  REMARK    PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-421, AND
+            IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].;
+            TISSUE=Brain, Brown adipose tissue, Heart, Kidney, Liver, Lung, and
+            Pancreas
+REFERENCE   22 (residues 1 to 792)
+  AUTHORS   Hinds,T.D. Jr., Stechschulte,L.A., Cash,H.A., Whisler,D.,
+            Banerjee,A., Yong,W., Khuder,S.S., Kaw,M.K., Shou,W., Najjar,S.M.
+            and Sanchez,E.R.
+  TITLE     Protein phosphatase 5 mediates lipid metabolism through reciprocal
+            control of glucocorticoid receptor and peroxisome
+            proliferator-activated receptor-gamma (PPARgamma)
+  JOURNAL   J Biol Chem 286 (50), 42911-42922 (2011)
+   PUBMED   21994940
+  REMARK    FUNCTION IN ADIPOGENESIS, INTERACTION WITH FKBP5 AND PPP5C,
+            PHOSPHORYLATION AT SER-221; SER-229 AND SER-243, AND
+            DEPHOSPHORYLATION AT SER-221 AND SER-243 BY PPP5C.
+REFERENCE   23 (residues 1 to 792)
+  AUTHORS   Lamia,K.A., Papp,S.J., Yu,R.T., Barish,G.D., Uhlenhaut,N.H.,
+            Jonker,J.W., Downes,M. and Evans,R.M.
+  TITLE     Cryptochromes mediate rhythmic repression of the glucocorticoid
+            receptor
+  JOURNAL   Nature 480 (7378), 552-556 (2011)
+   PUBMED   22170608
+  REMARK    INTERACTION WITH CRY1 AND CRY2.
+            Publication Status: Online-Only
+REFERENCE   24 (residues 1 to 792)
+  AUTHORS   Guo,A., Gu,H., Zhou,J., Mulhern,D., Wang,Y., Lee,K.A., Yang,V.,
+            Aguiar,M., Kornhauser,J., Jia,X., Ren,J., Beausoleil,S.A.,
+            Silva,J.C., Vemulapalli,V., Bedford,M.T. and Comb,M.J.
+  TITLE     Immunoaffinity enrichment and mass spectrometry analysis of protein
+            methylation
+  JOURNAL   Mol Cell Proteomics 13 (1), 372-387 (2014)
+   PUBMED   24129315
+  REMARK    METHYLATION [LARGE SCALE ANALYSIS] AT ARG-24, AND IDENTIFICATION BY
+            MASS SPECTROMETRY [LARGE SCALE ANALYSIS].;
+            TISSUE=Brain, and Embryo
+REFERENCE   25 (residues 1 to 792)
+  AUTHORS   Goriki,A., Hatanaka,F., Myung,J., Kim,J.K., Yoritaka,T., Tanoue,S.,
+            Abe,T., Kiyonari,H., Fujimoto,K., Kato,Y., Todo,T., Matsubara,A.,
+            Forger,D. and Takumi,T.
+  TITLE     A novel protein, CHRONO, functions as a core component of the
+            mammalian circadian clock
+  JOURNAL   PLoS Biol 12 (4), e1001839 (2014)
+   PUBMED   24736997
+  REMARK    INTERACTION WITH CIART.
+            Publication Status: Online-Only
+REFERENCE   26 (residues 1 to 792)
+  AUTHORS   Matthews,L.C., Berry,A.A., Morgan,D.J., Poolman,T.M., Bauer,K.,
+            Kramer,F., Spiller,D.G., Richardson,R.V., Chapman,K.E.,
+            Farrow,S.N., Norman,M.R., Williamson,A.J., Whetton,A.D.,
+            Taylor,S.S., Tuckermann,J.P., White,M.R. and Ray,D.W.
+  TITLE     Glucocorticoid receptor regulates accurate chromosome segregation
+            and is associated with malignancy
+  JOURNAL   Proc Natl Acad Sci U S A 112 (17), 5479-5484 (2015)
+   PUBMED   25847991
+  REMARK    FUNCTION.
+REFERENCE   27 (residues 1 to 792)
+  AUTHORS   Banuelos,J., Shin,S.C. and Lu,N.Z.
+  TITLE     A hotspot in the glucocorticoid receptor DNA-binding domain
+            susceptible to loss of function mutation
+  JOURNAL   Steroids 96, 115-120 (2015)
+   PUBMED   25676786
+  REMARK    SUBCELLULAR LOCATION, AND MUTAGENESIS OF ARG-493.
+REFERENCE   28 (residues 1 to 792)
+  AUTHORS   Kriebs,A., Jordan,S.D., Soto,E., Henriksson,E., Sandate,C.R.,
+            Vaughan,M.E., Chan,A.B., Duglan,D., Papp,S.J., Huber,A.L.,
+            Afetian,M.E., Yu,R.T., Zhao,X., Downes,M., Evans,R.M. and
+            Lamia,K.A.
+  TITLE     Circadian repressors CRY1 and CRY2 broadly interact with nuclear
+            receptors and modulate transcriptional activity
+  JOURNAL   Proc Natl Acad Sci U S A 114 (33), 8776-8781 (2017)
+   PUBMED   28751364
+  REMARK    INTERACTION WITH CRY1 AND CRY2.
+REFERENCE   29 (residues 1 to 792)
+  AUTHORS   Okabe,T., Chavan,R., Fonseca Costa,S.S., Brenna,A., Ripperger,J.A.
+            and Albrecht,U.
+  TITLE     REV-ERBalpha influences the stability and nuclear localization of
+            the glucocorticoid receptor
+  JOURNAL   J Cell Sci 129 (21), 4143-4154 (2016)
+   PUBMED   27686098
+  REMARK    INTERACTION WITH HSP90AA1 AND HSP90AB1, SUBCELLULAR LOCATION, AND
+            TISSUE SPECIFICITY.
+COMMENT     On or before Nov 19, 2021 this sequence version replaced
+            gi:123789244, gi:123794017, gi:123794105, P06537.1.
+            [FUNCTION] Receptor for glucocorticoids (GC). Has a dual mode of
+            action: as a transcription factor that binds to glucocorticoid
+            response elements (GRE), both for nuclear and mitochondrial DNA,
+            and as a modulator of other transcription factors. Affects
+            inflammatory responses, cellular proliferation and differentiation
+            in target tissues. Involved in chromatin remodeling
+            (PubMed:10678832). Plays a role in rapid mRNA degradation by
+            binding to the 5' UTR of target mRNAs and interacting with PNRC2 in
+            a ligand-dependent manner which recruits the RNA helicase UPF1 and
+            the mRNA-decapping enzyme DCP1A, leading to RNA decay (By
+            similarity). Could act as a coactivator for STAT5-dependent
+            transcription upon growth hormone (GH) stimulation and could reveal
+            an essential role of hepatic GR in the control of body growth
+            (PubMed:15037546). {ECO:0000250|UniProtKB:P04150,
+            ECO:0000269|PubMed:10678832, ECO:0000269|PubMed:15037546}.
+            [FUNCTION] [Isoform 1]: Has transcriptional activation and
+            repression activity (By similarity). Mediates
+            glucocorticoid-induced apoptosis (By similarity). Promotes accurate
+            chromosome segregation during mitosis (PubMed:25847991). May act as
+            a tumor suppressor (PubMed:25847991). May play a negative role in
+            adipogenesis through the regulation of lipolytic and antilipogenic
+            gene expression (PubMed:21994940). {ECO:0000250|UniProtKB:P04150,
+            ECO:0000269|PubMed:21994940, ECO:0000269|PubMed:25847991}.
+            [FUNCTION] [Isoform 3]: Acts as a dominant negative inhibitor of
+            isoform 1 (PubMed:20660300). Has intrinsic transcriptional activity
+            independent of isoform Alpha when both isoforms are coexpressed (By
+            similarity). Loses this transcription modulator function on its own
+            (By similarity). Has no hormone-binding activity (PubMed:20660300).
+            May play a role in controlling glucose metabolism by maintaining
+            insulin sensitivity (PubMed:20660300). Reduces hepatic
+            gluconeogenesis through down-regulation of PEPCK in an isoform
+            Alpha-dependent manner (By similarity). Directly regulates STAT1
+            expression in isoform Alpha-independent manner (By similarity).
+            {ECO:0000250|UniProtKB:P04150, ECO:0000269|PubMed:20660300}.
+            [SUBUNIT] Heteromultimeric cytoplasmic complex with HSP90AA1,
+            HSPA1A/HSPA1B, and FKBP5 or another immunophilin such as PPID,
+            STIP1, or the immunophilin homolog PPP5C (PubMed:21994940,
+            PubMed:9195923). Upon ligand binding FKBP5 dissociates from the
+            complex and FKBP4 takes its place, thereby linking the complex to
+            dynein and mediating transport to the nucleus, where the complex
+            dissociates (PubMed:11278753, PubMed:9195923). Probably forms a
+            complex composed of chaperones HSP90 and HSP70, co-chaperones
+            CDC37, PPP5C, TSC1 and client protein TSC2, CDK4, AKT, RAF1 and
+            NR3C1; this complex does not contain co-chaperones STIP1/HOP and
+            PTGES3/p23 (By similarity). Directly interacts with UNC45A (By
+            similarity). Binds to DNA as a homodimer, and as heterodimer with
+            NR3C2 or the retinoid X receptor. Binds STAT5A and STAT5B
+            homodimers and heterodimers (PubMed:9528750). Interacts with NRIP1,
+            POU2F1, POU2F2 and TRIM28 (PubMed:9742105). Interacts with several
+            coactivator complexes, including the SMARCA4 complex, CREBBP/EP300,
+            TADA2L (Ada complex) and p160 coactivators such as NCOA2 and NCOA6
+            (By similarity). Interaction with BAG1 inhibits transactivation (By
+            similarity). Interacts with HEXIM1 and TGFB1I1 (PubMed:10848625).
+            Interacts with NCOA1 (By similarity). Interacts with NCOA3,
+            SMARCA4, SMARCC1, SMARCD1, and SMARCE1 (By similarity). Interacts
+            with CLOCK, CRY1 and CRY2 in a ligand-dependent fashion
+            (PubMed:22170608, PubMed:28751364). Interacts with CIART
+            (PubMed:24736997). Interacts with RWDD3 (By similarity). Interacts
+            with UBE2I/UBC9 and this interaction is enhanced in the presence of
+            RWDD3 (By similarity). Interacts with GRIP1 (By similarity).
+            Interacts with NR4A3 (via nuclear receptor DNA-binding domain),
+            represses transcription activity of NR4A3 on the POMC promoter Nur
+            response element (NurRE) (By similarity). Directly interacts with
+            PNRC2 to attract and form a complex with UPF1 and DCP1A; the
+            interaction leads to rapid mRNA degradation (By similarity).
+            Interacts with GSK3B (By similarity). Interacts with FNIP1 and
+            FNIP2 (By similarity). Interacts (via C-terminus) with HNRNPU (via
+            C-terminus) (By similarity). Interacts with MCM3AP (By similarity).
+            Interacts (via domain NR LBD) with HSP90AA1 and HSP90AB1
+            (PubMed:27686098). In the absence of hormonal ligand, interacts
+            with TACC1 (By similarity). Interacts (via NR LBD domain) with
+            ZNF764 (via KRAB domain); the interaction regulates transcription
+            factor activity of NR3C1 by directing its actions toward certain
+            biologic pathways (By similarity). {ECO:0000250|UniProtKB:P04150,
+            ECO:0000250|UniProtKB:P06536, ECO:0000269|PubMed:10678832,
+            ECO:0000269|PubMed:10848625, ECO:0000269|PubMed:11278753,
+            ECO:0000269|PubMed:21994940, ECO:0000269|PubMed:22170608,
+            ECO:0000269|PubMed:24736997, ECO:0000269|PubMed:27686098,
+            ECO:0000269|PubMed:28751364, ECO:0000269|PubMed:9195923,
+            ECO:0000269|PubMed:9528750, ECO:0000269|PubMed:9742105}.
+            [INTERACTION] P06537; O88485: Dync1i1; NbExp=2; IntAct=EBI-492753,
+            EBI-492834; P06537; P30416: Fkbp4; NbExp=3; IntAct=EBI-492753,
+            EBI-492746; P06537; Q64378: Fkbp5; NbExp=2; IntAct=EBI-492753,
+            EBI-492796; P06537; P11499: Hsp90ab1; NbExp=2; IntAct=EBI-492753,
+            EBI-492813; P06537-1; P97784: Cry1; NbExp=3; IntAct=EBI-15959147,
+            EBI-1266607; P06537-1; Q9R194: Cry2; NbExp=3; IntAct=EBI-15959147,
+            EBI-1266619.
+            [SUBCELLULAR LOCATION] Cytoplasm {ECO:0000269|PubMed:11278753,
+            ECO:0000269|PubMed:25676786, ECO:0000269|PubMed:27686098}. Nucleus
+            {ECO:0000269|PubMed:10678832, ECO:0000269|PubMed:11278753,
+            ECO:0000269|PubMed:25676786, ECO:0000269|PubMed:27686098}.
+            Note=Cytoplasmic in the absence of ligand, nuclear after
+            ligand-binding (PubMed:11278753). The hormone-occupied receptor
+            undergoes rapid exchange between chromatin and the nucleoplasmic
+            compartment (PubMed:10678832). In the presence of NR1D1 shows a
+            time-dependent subcellular localization, localizing to the
+            cytoplasm at ZT8 and to the nucleus at ZT20 (PubMed:27686098).
+            Lacks this diurnal pattern of localization in the absence of NR1D1,
+            localizing to both nucleus and the cytoplasm at ZT8 and ZT20
+            (PubMed:27686098). {ECO:0000269|PubMed:10678832,
+            ECO:0000269|PubMed:11278753, ECO:0000269|PubMed:27686098}.
+            [SUBCELLULAR LOCATION] [Isoform 1]: Cytoplasm
+            {ECO:0000250|UniProtKB:P04150}. Nucleus
+            {ECO:0000250|UniProtKB:P04150}. Mitochondrion
+            {ECO:0000250|UniProtKB:P04150}. Cytoplasm, cytoskeleton, spindle
+            {ECO:0000250|UniProtKB:P04150}. Cytoplasm, cytoskeleton,
+            microtubule organizing center, centrosome
+            {ECO:0000250|UniProtKB:P04150}. Note=After ligand activation,
+            translocates from the cytoplasm to the nucleus.
+            {ECO:0000250|UniProtKB:P04150}.
+            [SUBCELLULAR LOCATION] [Isoform 3]: Nucleus
+            {ECO:0000269|PubMed:20660300}. Cytoplasm
+            {ECO:0000269|PubMed:20660300}. Note=Expressed predominantly in the
+            nucleus with some expression also detected in the cytoplasm.
+            {ECO:0000269|PubMed:20660300}.
+            [ALTERNATIVE PRODUCTS] Event=Alternative splicing, Alternative
+            initiation; Named isoforms=5; Name=1; Synonyms=1-A, GR form A,
+            Alpha; IsoId=P06537-1; Sequence=Displayed; Name=2; Synonyms=2-A, GR
+            form B, Gamma; IsoId=P06537-2; Sequence=VSP_003704; Name=1-B;
+            IsoId=P06537-3; Sequence=VSP_018774; Name=2-B; IsoId=P06537-4;
+            Sequence=VSP_018774, VSP_003704; Name=3; Synonyms=Beta;
+            IsoId=P06537-5; Sequence=VSP_058320, VSP_058321.
+            [TISSUE SPECIFICITY] Expressed in spleen, kidney and liver
+            (PubMed:20660300). Expressed in a circadian manner in the liver
+            (PubMed:27686098). {ECO:0000269|PubMed:20660300,
+            ECO:0000269|PubMed:27686098}.
+            [TISSUE SPECIFICITY] [Isoform 3]: Expressed at highest level in
+            spleen with lesser amounts in kidney and liver.
+            {ECO:0000269|PubMed:20660300}.
+            [INDUCTION] [Isoform 1]: Down-regulated by glucocorticoids.
+            {ECO:0000269|PubMed:20660300}.
+            [INDUCTION] [Isoform 3]: Up-regulated by glucocorticoids and
+            insulin. {ECO:0000269|PubMed:20660300}.
+            [DOMAIN] Composed of three domains: a modulating N-terminal domain,
+            a DNA-binding domain and a C-terminal ligand-binding domain. The
+            ligand-binding domain is required for correct chromosome
+            segregation during mitosis although ligand binding is not required.
+            {ECO:0000250|UniProtKB:P04150}.
+            [PTM] Acetylation by CLOCK reduces its binding to glucocorticoid
+            response elements and its transcriptional activity.
+            {ECO:0000250|UniProtKB:P04150}.
+            [PTM] Increased proteasome-mediated degradation in response to
+            glucocorticoids. {ECO:0000269|PubMed:11555652}.
+            [PTM] Phosphorylated in the absence of hormone; becomes
+            hyperphosphorylated in the presence of glucocorticoids.
+            Phosphorylated in the absence of hormone; becomes
+            hyperphosphorylated in the presence of glucocorticoid. The Ser-221,
+            Ser-243 and Ser-421-phosphorylated forms are mainly cytoplasmic,
+            and the Ser-229-phosphorylated form is nuclear (By similarity).
+            Phosphorylation at Ser-229 increases transcriptional activity (By
+            similarity). Phosphorylation at Ser-221, Ser-243 and Ser-421
+            decreases signaling capacity (By similarity). Phosphorylation at
+            Ser-421 may protect from glucocorticoid-induced apoptosis (By
+            similarity). Phosphorylation at Ser-221 and Ser-229 is not required
+            in regulation of chromosome segregation (By similarity). May be
+            dephosphorylated by PPP5C, attenuates NR3C1 action
+            (PubMed:21994940). {ECO:0000250|UniProtKB:P04150,
+            ECO:0000269|PubMed:2019585, ECO:0000269|PubMed:21994940}.
+            [PTM] Sumoylation at Lys-294 and Lys-310 negatively regulates its
+            transcriptional activity. Sumoylation at Lys-718 positively
+            regulates its transcriptional activity in the presence of RWDD3.
+            Sumoylation at Lys-294 and Lys-310 is dispensable whereas
+            sumoylation at Lys-718 is critical for the stimulatory effect of
+            RWDD3 on its transcriptional activity. Heat shock increases
+            sumoylation in a RWDD3-dependent manner.
+            {ECO:0000250|UniProtKB:P06536}.
+            [PTM] Ubiquitinated; restricts glucocorticoid-mediated
+            transcriptional signaling. {ECO:0000269|PubMed:11555652}.
+            [POLYMORPHISM] The poly-Gln region in 78-91 is polymorphic
+            (PubMed:15489334, PubMed:16141072, PubMed:17012242,
+            PubMed:20660300, PubMed:3780669). Polymorphism plays a role in
+            complex mechanisms leading to lower corticosterone response to
+            stress, and may also be associated with decreased locomotive and
+            increased anxiety-type behaviors (PubMed:17012242).
+            {ECO:0000269|PubMed:15489334, ECO:0000269|PubMed:16141072,
+            ECO:0000269|PubMed:17012242, ECO:0000269|PubMed:20660300,
+            ECO:0000269|PubMed:3780669}.
+            [MISCELLANEOUS] T-cell is a critical cellular target of GR, as
+            immune activation in mice lacking GR resulted in significant
+            mortality. This lethal activation is rescued by PTGS2 inhibition
+            but not steroid administration or cytokine neutralization.
+            [MISCELLANEOUS] [Isoform 2]: Produced by alternative splicing.
+            {ECO:0000305}.
+            [MISCELLANEOUS] [Isoform 1-B]: Produced by alternative initiation
+            at Met-28 of isoform 1. {ECO:0000305}.
+            [MISCELLANEOUS] [Isoform 2-B]: Produced by alternative initiation
+            at Met-28 of isoform 2. {ECO:0000305}.
+            [SIMILARITY] Belongs to the nuclear hormone receptor family. NR3
+            subfamily. {ECO:0000305}.
+FEATURES             Location/Qualifiers
+     source          1..792
+                     /organism="Mus musculus"
+                     /db_xref="taxon:10090"
+     gene            1..792
+                     /gene="Nr3c1"
+                     /gene_synonym="Grl"
+                     /gene_synonym="Grl1"
+     Protein         1..792
+                     /product="Glucocorticoid receptor"
+                     /note="GR; Nuclear receptor subfamily 3 group C member 1"
+                     /UniProtKB_evidence="Evidence at protein level"
+     Region          1..792
+                     /region_name="Mature chain"
+                     /note="Glucocorticoid receptor. /id=PRO_0000019939."
+     Region          1..436
+                     /region_name="Region of interest in the sequence"
+                     /note="Modulating."
+     Region          1..27
+                     /region_name="Splicing variant"
+                     /note="Missing (in isoform 1-B and isoform 2-B).
+                     /evidence=ECO:0000305. /id=VSP_018774."
+     Region          1..25
+                     /region_name="Region of interest in the sequence"
+                     /note="Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Site            1
+                     /site_type="mutagenized"
+                     /note="M->T: Abolishes expression of A-type isoforms.
+                     /evidence=ECO:0000269|PubMed:11435610."
+     Site            24
+                     /site_type="methylation"
+                     /note="Omega-N-methylarginine.
+                     /evidence=ECO:0007744|PubMed:24129315."
+     Region          27..418
+                     /region_name="GCR"
+                     /note="Glucocorticoid receptor; pfam02155"
+                     /db_xref="CDD:426625"
+     Site            28
+                     /site_type="mutagenized"
+                     /note="M->T: Abolishes expression of B-type isoforms. 1-B.
+                     /evidence=ECO:0000269|PubMed:11435610."
+     Site            46
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:P04150."
+     Region          67..98
+                     /region_name="Region of interest in the sequence"
+                     /note="Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Region          78..86
+                     /region_name="Variant"
+                     /note="Missing. /evidence=ECO:0000269|PubMed:15489334,
+                     ECO:0000269|PubMed:16141072, ECO:0000269|PubMed:20660300,
+                     ECO:0000269|PubMed:3780669."
+     Region          91
+                     /region_name="Variant"
+                     /note="Missing. /evidence=ECO:0000269|PubMed:17012242."
+     Site            131
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000269|PubMed:2019585."
+     Region          148..201
+                     /region_name="Region of interest in the sequence"
+                     /note="Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Site            152
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:P04150."
+     Site            159
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000269|PubMed:2019585."
+     Site            168
+                     /site_type="phosphorylation"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000269|PubMed:2019585."
+     Site            221
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000269|PubMed:2019585,
+                     ECO:0000269|PubMed:21994940."
+     Site            229
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000269|PubMed:2019585,
+                     ECO:0000269|PubMed:21994940."
+     Site            243
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000269|PubMed:2019585,
+                     ECO:0000269|PubMed:21994940."
+     Site            284
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:P04150."
+     Bond            bond(294)
+                     /bond_type="xlink"
+                     /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+                     G-Cter in SUMO); alternate.
+                     /evidence=ECO:0000250|UniProtKB:P04150."
+     Bond            bond(294)
+                     /bond_type="xlink"
+                     /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+                     G-Cter in SUMO2); alternate.
+                     /evidence=ECO:0000250|UniProtKB:P04150."
+     Bond            bond(310)
+                     /bond_type="xlink"
+                     /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+                     G-Cter in SUMO); alternate.
+                     /evidence=ECO:0000250|UniProtKB:P04150."
+     Bond            bond(310)
+                     /bond_type="xlink"
+                     /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+                     G-Cter in SUMO2); alternate.
+                     /evidence=ECO:0000250|UniProtKB:P04150."
+     Site            324
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000269|PubMed:2019585."
+     Site            421
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:21183079."
+     Region          432
+                     /region_name="Conflict"
+                     /note="P -> L (in Ref. 4; BAE33674).
+                     /evidence=ECO:0000305."
+     Region          433..510
+                     /region_name="NR_DBD_GR_PR"
+                     /note="DNA-binding domain of glucocorticoid receptor (GR)
+                     is composed of two C4-type zinc fingers; cd07172"
+                     /db_xref="CDD:143546"
+     Site            434..509
+                     /site_type="DNA binding"
+                     /note="Nuclear receptor.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU00407."
+     Bond            bond(435)
+                     /bond_type="xlink"
+                     /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+                     G-Cter in ubiquitin).
+                     /evidence=ECO:0000305|PubMed:11555652."
+     Site            435
+                     /site_type="mutagenized"
+                     /note="K->A: Abolishes glucocorticoid-mediated degradation
+                     and enhances transcription trans-activation.
+                     /evidence=ECO:0000269|PubMed:11555652."
+     Site            order(437,440,454,457,473,479,489,492)
+                     /site_type="other"
+                     /note="zinc binding site [ion binding]"
+                     /db_xref="CDD:143546"
+     Region          437..457
+                     /region_name="Zinc finger region"
+                     /note="NR C4-type.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU00407."
+     Region          446
+                     /region_name="Conflict"
+                     /note="G -> V (in Ref. 1; CAA28031).
+                     /evidence=ECO:0000305."
+     Site            order(447..449,455..456,458..459,462..463,471,486..487,
+                     493)
+                     /site_type="DNA binding"
+                     /note="DNA binding site [nucleotide binding]"
+                     /db_xref="CDD:143546"
+     Region          467
+                     /region_name="Splicing variant"
+                     /note="G -> GR (in isoform 2 and isoform 2-B).
+                     /evidence=ECO:0000303|PubMed:2911477. /id=VSP_003704."
+     Site            order(472..474,476,479..480,484..485,488)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:143546"
+     Region          473..497
+                     /region_name="Zinc finger region"
+                     /note="NR C4-type.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU00407."
+     Site            493
+                     /site_type="mutagenized"
+                     /note="R->A: Abolishes transactivation activity.
+                     /evidence=ECO:0000269|PubMed:25676786."
+     Site            493
+                     /site_type="mutagenized"
+                     /note="R->C: Abolishes transcriptional activity. Does not
+                     impair ligand binding.
+                     /evidence=ECO:0000269|PubMed:25676786."
+     Site            493
+                     /site_type="mutagenized"
+                     /note="R->K: Does not change transactivation activity.
+                     /evidence=ECO:0000269|PubMed:25676786."
+     Site            496
+                     /site_type="acetylation"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0000250|UniProtKB:P04150."
+     Region          501..792
+                     /region_name="Region of interest in the sequence"
+                     /note="Interaction with CLOCK. /evidence=ECO:0000250."
+     Region          503..538
+                     /region_name="Region of interest in the sequence"
+                     /note="Hinge."
+     Site            508
+                     /site_type="acetylation"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0000250|UniProtKB:P04150."
+     Site            510
+                     /site_type="acetylation"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0000250|UniProtKB:P04150."
+     Site            511
+                     /site_type="acetylation"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0000250|UniProtKB:P04150."
+     Region          539..773
+                     /region_name="Domain"
+                     /note="NR LBD.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU01189."
+     Region          546..792
+                     /region_name="NR_LBD_GR"
+                     /note="Ligand binding domain of the glucocorticoid
+                     receptor, a member of the nuclear receptor superfamily;
+                     cd07076"
+                     /db_xref="CDD:132761"
+     Region          547..712
+                     /region_name="Region of interest in the sequence"
+                     /note="Interaction with CRY1. /evidence=ECO:0000250."
+     Region          547..554
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:3MNP."
+     Site            order(560,562..566,629..630,640..641,643,645)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:132761"
+     Region          571..594
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:3MNP."
+     Site            order(575,578..579,582,585..586,615..616,619..620,623,626,
+                     638,657,661,747,750,752)
+                     /site_type="other"
+                     /note="ligand binding site [chemical binding]"
+                     /db_xref="CDD:132761"
+     Site            order(590,594,600,604..605,607..608,611..612,767,770..771,
+                     773..774,778)
+                     /site_type="other"
+                     /note="coactivator recognition site [polypeptide binding]"
+                     /db_xref="CDD:132761"
+     Region          599..601
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:3MNP."
+     Region          604..631
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:3MNP."
+     Region          634..639
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3MNP."
+     Region          642..644
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3MNP."
+     Region          646..649
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:3MNP."
+     Region          652..654
+                     /region_name="Hydrogen bonded turn"
+                     /note="/evidence=ECO:0007829|PDB:3MNP."
+     Region          655..671
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:3MNP."
+     Region          675..686
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:3MNP."
+     Region          688..691
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3MNP."
+     Region          698..717
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:3MNP."
+     Bond            bond(718)
+                     /bond_type="xlink"
+                     /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+                     G-Cter in SUMO). /evidence=ECO:0000250|UniProtKB:P04150."
+     Region          723..756
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:3MNP."
+     Region          744..757
+                     /region_name="Splicing variant"
+                     /note="VENLLSYCFQTFLD -> STKHKSKTTAKKKK (in isoform 3).
+                     /id=VSP_058320."
+     Region          758..792
+                     /region_name="Splicing variant"
+                     /note="Missing (in isoform 3). /id=VSP_058321."
+     Region          758..760
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:3MNP."
+     Region          766..780
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:3MNP."
+     Region          784..786
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3MNP."
+     Region          792
+                     /region_name="Conflict"
+                     /note="K -> E (in Ref. 4; BAE33674).
+                     /evidence=ECO:0000305."
+ORIGIN      
+        1 mdskeslapp grdevpssll grgrgsvmdl yktlrggatv kvsasspsva aasqadskqq
+       61 rilldfskgs asnaqqqqqq qqqqqqqqqq qpqpdlskav slsmglymge tetkvmgndl
+      121 gypqqgqlgl ssgetdfrll eesianlnrs tsrpenpkss tpaagcatpt ekefpqthsd
+      181 psseqqnrks qpgtnggsvk lyttdqstfd ilqdlefsag spgketnesp wrsdlliden
+      241 llsplagedd pfllegdvne dckplilpdt kpkiqdtgdt ilsspssval pqvktekddf
+      301 ielctpgvik qeklgpvycq asfsgtniig nkmsaisvhg vstsggqmyh ydmntaslsq
+      361 qqdqkpvfnv ippipvgsen wnrcqgsged nltslgamnf agrsvfsngy sspgmrpdvs
+      421 sppsssstat gpppklclvc sdeasgchyg vltcgsckvf fkravegqhn ylcagrndci
+      481 idkirrkncp acryrkclqa gmnlearktk kkikgiqqat agvsqdtsen anktivpaal
+      541 pqltptlvsl leviepevly agydssvpds awrimttlnm lggrqviaav kwakaipgfr
+      601 nlhlddqmtl lqyswmflma falgwrsyrq asgnllcfap dliineqrmt lpcmydqckh
+      661 mlfistelqr lqvsyeeylc mktllllssv pkeglksqel fdeirmtyik elgkaivkre
+      721 gnssqnwqrf yqltklldsm hdvvenllsy cfqtfldksm siefpemlae iitnqipkys
+      781 ngnikkllfh qk
+//
+
