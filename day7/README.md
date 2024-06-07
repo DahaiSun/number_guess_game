@@ -1,3 +1,5 @@
+NCBI protein downloader
+
 script work flow:
 
 1. search user input term, usage: ~ python3 ncbi.py TERM NUMBER ORGANISMS
