@@ -39,7 +39,7 @@ def check_guess():
 def exit_game():
     root.destroy()
 
-# Initialize the main window
+# Tinker
 root = tk.Tk()
 root.title("Number Guessing Game")
 root.geometry("300x300")
