@@ -16,5 +16,5 @@ This Python script analyzes DNA sequences from FASTA or GeneBank files to either
 python analyze.py <path_to_fasta_or_genbank_file> <function>
 
 Examples:
-- Find Longest Repeated Subsequence: ~ python3 analyze.py path/to/your/file.fasta duplicate
-- Find Highest GC Content Area: ~ python3 analyze.py path/to/your/file.fasta high_GC_area
+- **Find Longest Repeated Subsequence**: ~ python3 analyze.py path/to/your/file.fasta duplicate
+- **Find Highest GC Content Area**: ~ python3 analyze.py path/to/your/file.fasta high_GC_area
